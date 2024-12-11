@@ -28,16 +28,10 @@ aside:
   * Wed. 3:35PM - 4:45PM (SEH 4040, section 32) with Abde Manaaf (lead) and Nate Dixon
 
 ### Office hours
-* Laura Anker (LA): Mon 4-6pm and Wed 11am-12:30pm at SEH 4th floor couches
-* Laith Najjab (LA): Mon 5-6pm, Tue 5-6pm, and Thu 5pm-6:30pm at SEH 4th floor couches
-* Nate Dixon (LA): Wed 9am-12pm at SEH 4th floor couches
-* Zack Rahbar (UTA): Tue 3-5pm and Thu 3-5pm at SEH 4th floor couches
-* Ozzy Simpson (UTA): Wed 2:30pm-3:30pm, Thu 10am-1pm, Fri 10am-11am at SEH 4th floor couches
-* Abde Manaaf (GTA): Fri 4pm-6pm via [zoom](https://us04web.zoom.us/j/77357084113?pwd=5jMMTALsQxgITbgZLvqpJU1JqxezW7.1)
-* Kinga Dobolyi (professor): SEH 4655 Tuesdays from 12:45pm-2:00pm (you can show up at anytime, no appointment needed), [Zoom](https://gwu-edu.zoom.us/j/6378326351) on Wednesdays from 8:45am-10am, or email me for an appointment (between the hours of 9am through 4pm Monday through Thursday, schedule permitting, 15 minute appointment blocks).
+* TBA
 
 ### Grading
-* Abde Manaaf (GTA), abdemanaaf.ghadiali@gwmail.gwu.edu
+* TBA
 
 ## Course Details 
 
@@ -77,8 +71,7 @@ Having completed the pre-reqs, you are expected to submit well-written code:
 - Select readable variable names and method names.
 - Use consistent indentation (preferred: two or four spaces).
 - Be able to describe and answer questions about your code when prompted.
-- Verify your grade on programming assignments on the submitserver; we will be using your scores on the submitserver as your grade. **It is your responsibility to 
-submit your code early and often to the submitserver** and ensure it passes all the test cases there. Note that, under load, the submitserver may take longer than a few seconds to return your score if many other students are also using it simultaneously. We will not accept any code that has not been submitted to the submitserver before the deadline.
+- Verify your grade on programming assignments on the submitserver; we will be using your scores on the submitserver as your grade. **It is your responsibility to submit your code early and often to the submitserver** and ensure it passes all the test cases there. Note that, under load, the submitserver may take longer than a few seconds to return your score if many other students are also using it simultaneously. We will not accept any code that has not been submitted to the submitserver before the deadline. When using the submitserver, your grade will be the score you see on the submitserver. Make sure you leave yourself ample time before assignment submission to get help with any issues that you may run into when submitting your code.
 - Commit your changes incrementally to git, whether in the same day/coding session, or across days. Your git commit history must show evidence that you worked on your code meaningfully over time (as opposed to just checking in large blocks of code). We recommend students commit after they pass a new test case.
 
 ## Grading 
@@ -93,6 +86,22 @@ submit your code early and often to the submitserver** and ensure it passes all 
    * 25%: Written exams (equal weight, not cumulative)
 
 We reserve the right to request access to the programming assignments for this class on your github repo (via github's collaborator mechanism). Failure to comply with such a request will automatically result in a zero on your programming assignment.
+
+Final course grades are calculated as follows:
+A (>= 92.0%) A– (>= 90.0%)
+B+ (>= 88.0%) B (>= 82.0%) B– (>= 80.0%)
+C+ (>= 78.0%) C (>= 72.0%) C– (>= 70.0%)
+D (>= 60.0%)
+F (< 60.0%)
+
+
+It is your responsibility to make sure that grades have been correctly entered in Blackboard in a timely manner. Please make sure that Blackboard reflects your correct scores within two weeks of an assignment due date; we will not adjust scores after this deadline.
+
+Please be aware that Blackboard does not weight overall course grades correctly. You can calculate your grade in the course at any time by referring to the raw scores on Blackboard, and using the weights above to calculate your grade in the class.
+
+No assignments will be accepted for re-grade requests after final grades have been recorded in Blackboard.
+
+Regrade requests will only be considered for either 1) a grade being incorrectly recorded into Blackboard or 2) a grading rubric was not followed correctly. Please do not request to meet to "discuss" grades before emailing the instructional staff why your situation falls into one of these two situations first. 
 
 ### Exams
 
@@ -144,6 +153,8 @@ We also have an [anonymous feedback form](https://forms.gle/fzfc5oCBgDgwiNjn6) a
 
 Students are expected to treat each other, the TAs, and the instructor professionally both in-person and in online communications and work. If unprofessional behavior is observed, a student will first receive a warning. Afterwards, their final grade in the course may be reduced up to 5% (as a loss of the participation points this semester) for additional acts of unprofessionalism.
 Unprofessionalism covers activities (or lack thereof) on the group project this semester (see below). 
+
+Knowingly asking the professor to violate or go against policies set in this syllabus will count as unprofessional behavior. 
 
 ## Course Policies
 
@@ -201,7 +212,7 @@ Any student who may need an accommodation based on the potential impact of a dis
 
 ### Diversity and Inclusion
 
-It is our intent to present materials and activities that are respectful of: age, race, ethnicity, country of origin, language, religion, spiritual practice, sexual orientation, gender identity or expression, introversion/extroversion personality dimensions, and socioeconomic and mental/physical status. All people have the right to be addressed and referred to in accordance with their personal identity. In this class, we will have the chance to indicate the name that we prefer to be called and, if we choose, to identify pronouns with which we would like to be addressed. I will do my best to address and refer to all students accordingly and support classmates in doing so as well. 
+All people have the right to be addressed and referred to in accordance with their personal identity. In this class, we will have the chance to indicate the name that we prefer to be called and, if we choose, to identify pronouns with which we would like to be addressed. I will do my best to address and refer to all students accordingly and support classmates in doing so as well. 
 
 For more resources, see the [CS Dept JEDI homepage](https://www.cs.seas.gwu.edu/justice-equity-diversity-and-inclusion-jedi-committee).
 

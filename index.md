@@ -1,10 +1,9 @@
 ---
 layout: default
-title: CS2113 Software Engineering - Fall 2024
+title: CS2113 Software Engineering - Spring 2025
 ---
 
 * [Syllabus and Office Hours](/syllabus.html)
 * [Class Schedule](/schedule.html)
-* [Videos](/videos)
-* [Ed](https://edstem.org/us/courses/58495/discussion/) -- for questions
+* [Ed](https://edstem.org/us/courses/69891/discussion/) -- for questions
 
