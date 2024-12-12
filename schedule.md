@@ -9,7 +9,7 @@ title: Schedule
 
 
 
-| Week | Lecture (Mon)  | Reading    |                                                                                                      | Lab ( Wed)     
+| Week | Lecture (Mon)  | Reading    | Lab ( Wed)     
 | 0    | Jan 13: History of <a href="https://dl.acm.org/doi/pdf/10.1145/1134285.1134288">Software Engineering</a> <br> In-class start of semester assessment | Jan 15: [Lab 0 -- git setup](lab/0) (Due Fri Jan 17) | none |
 
 |     | <i>no lecture</i>   | Jan 22:  submitserver setup  <br> Lab 1: debugging with print statements exercise |   none |         
