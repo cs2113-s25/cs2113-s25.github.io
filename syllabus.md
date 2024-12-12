@@ -96,23 +96,25 @@ It is your responsibility to make sure that grades have been correctly entered i
 
 Regrade requests will only be considered for either 1) a grade being incorrectly recorded into Blackboard or 2) a grading rubric was not followed correctly. Please do not request to meet to "discuss" grades before emailing the instructional staff why your situation falls into one of these two situations first. 
 
-We also do not entertain any requests to arbitrarily "bump up" grades -- see the professionalism policy below. **If you wish to discuss your final overall grade in the course, you may do this via email, or in-person. If you choose to do it in person, please email me to schedule a meeting. Final grade questions  will not be answered in regular office hours.** 
+We also do not entertain any requests to arbitrarily "bump up" grades -- see the professionalism policy below. If you wish to discuss your final overall grade in the course, you may do this via email, or in-person. If you choose to do it in person, please email me to schedule a meeting. Final grade questions  will not be answered in regular office hours.
 
 ### Labs
 
 You will usually have one or two labs each week. These are due Fridays at 11:59pm on the submitserver. However, you may submit them up until class time on Mondays without penalty, but there will be no office hours nor Ed support for these assignments after the Friday due date.
 
-There will also be one live coding exam that students will take on school-provided computers during one lecture/lab session.
-
 ### Quizzes and Exams
 
 We will have quizzes most weeks of the semester. If you miss a quiz, you may make this quiz up on the last lecture of the semester: these quizzes will be harder as you had more time to study. No additional makeups-on-makeups will be supported. If you need to make up more than one missed quiz, you will need a note from Dean Zara. You will not be allowed to make up any quizzes that you have already taken.
+
+There will also be one live coding exam that students will take on school-provided computers during one lecture/lab session.
 
 ### Worksheets
 
 This class is taught as a flipped classroom; you are expected to do the weekly readings before coming to class. During lecture, we will complete worksheets together that are due on Mondays at 11:59pm.
 
 ## Submission/Late Work Policy
+
+All assignments are due in EST.
 
 We do not accept late work in this course. 
 
