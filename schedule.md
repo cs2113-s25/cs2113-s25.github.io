@@ -11,9 +11,8 @@ title: Schedule
 
 | Week | Lecture (Mon)  | Reading    | Lab ( Wed)     
 | 0    | Jan 13: History of <a href="https://dl.acm.org/doi/pdf/10.1145/1134285.1134288">Software Engineering</a> <br> In-class start of semester assessment | Jan 15: [Lab 0 -- git setup](lab/0) (Due Fri Jan 17) | none |
-
 |     | <i>no lecture</i>   | Jan 22:  submitserver setup  <br> Lab 1: debugging with print statements exercise |   none |         
-                                     |
+
 | 1    | Jan 27: [J0 Worksheet -- understanding unit tests](worksheet/j0) <br> Lab 2: Debugging with unit tests | Jan 22: [lecture on markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) | [J0 - Java, OOP, Encapsulation](j/0) |
 
 | 2    | Feb 3: [J1 Worksheet](worksheet/j1) <br> Quiz 1: Debugging with unit tests <br> Lab 3: Writing your own test cases | Jan 29: Lab 4: Finding faults with unit tests | [S1 - Writing Test Cases](j/software_testing) |
