@@ -9,25 +9,41 @@ title: Schedule
 
 
 
-| Week | Lecture (Mon)                                                                                                            | Lab ( Mon or Wed)     
-| 0    | Aug 26: History of <a href="https://dl.acm.org/doi/pdf/10.1145/1134285.1134288">Software Engineering</a>  | Aug 26/28: [Lab 0 -- git setup](lab/0) (Due Fri Sep 6) |
-|     | <i>no lecture</i>   | Sep 4: <i>No Mon lab<br> Wed lab is office hours</i> |                                                 |
-| 1    | Sep 9: [J0 - OOP, Encapsulation, Unit Testing](j/0)<br> &bull; submitserver setup          | Sep 9/11: [J0 Worksheet -- understanding unit tests](worksheet/j0)  |
-| 2    | Sep 16: [lecture on markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)<br> &bull; [S1 - Software Testing](j/software_testing)<br> &bull; [J1 Worksheet](worksheet/j1)  | Sep 16/18:  finish J1 Worksheet      |
-| 3    | Sep 23: [J1 - Inheritance and UML](j/1) <br>&bull; [J2 Worksheet](worksheet/j2)            | Sep23/25: begin [Lab 1 -- Enigma](lab/1) (Due Fri Sep 27)                                                                                 |                                                                        |
-| 4    | Sep 30: [J2 - Polymorphism](j/2) <br>&bull; Quiz on lab 1 (15 min)<br>&bull; [J3 Worksheet](worksheet/j3)   | Sep 30/Oct 2: begin [Lab 2 -- Dot Chaser](lab/2) (Due Fri Oct 4) <br> finish J3 worksheet
-| 5    | Oct 7: [J3 - Interfaces and Generics](j/3) <br>&bull; Quiz on lab 2 (15 min)<br>&bull; [J4 Worksheet](worksheet/j4)   | Oct 7/9: finish J4 worksheet <br> begin working on [Project 1 -- DC Metro](project/1) (diagram due Mon Oct 14 -- no late deadline, code due Fri Oct 25)                                                                              |
-| 6    | Oct 14: Live coding exam (60 minutes) [sample live coding Exam1_Tester.java](./j-units/Exam1_Tester.java) [sample live coding Zoo.java](./j-units/Zoo.java)  | Oct 14/16: continue working on [Project 1 -- DC Metro](project/1)<br>&bull;answer student questions about sample written exam        
-| 7    | Oct 21: [Exceptions and I/O](j/exceptions)<br>&bull; written exam portion (45 minutes) [sample written portion](https://cs2113-s24.github.io/j-units/Exam1.pdf) | Oct 21/23: begin [Lab 3 -- Wordcount](lab/3) (Due Fri Nov 1) |                                                    |                                                                 |
-| 8    | Oct 28: [J5 - Threading and Concurrency](j/5)<br>&bull;Project 1 quiz (15 min)<br>&bull; [J6 Worksheet](worksheet/j6)      | Oct 28/30:   continue to work on Lab 3      |                                                              |
-| 9    | Nov 4: [J6 - Java IO and Networking](j/6) <br>&bull; quiz on Lab 3 (15 minutes)<br>&bull; [J7 Worksheet](worksheet/j7)    | Nov 4/6: Finish J7 worksheet <br>  begin [Project 2 -- Client Server simulator](project/2) (Due Fri Nov 15)                                                                              |
-| 10   | Nov 11:  [J4 - GUIs and Events](j/4)<br>&bull; [J5 Worksheet](worksheet/j5)   | Nov 11/13: [J10 Worksheet -- debugging exercise](worksheet/j10)     |
-| 11   | Nov 18:  [S2 - Software Engineering Development](j/software_engineering)<br>&bull; [J8 Worksheet](worksheet/j8) <br>[S3 - Design Patterns](j/design)<br>&bull; [J9 Worksheet](worksheet/j9) <br>&bull; quiz on Client Server Simulator (15 minutes)       | Nov 18/20: <br> begin [Lab 4 -- GUI Enigma](lab/4) (Due Fri Nov 22)              |
-|    | Nov 25: <i>no class</i>          | Nov 25/27: <i>no lab</i>           |
-| 12   | Dec 2: [other programming languages and python](j/languages)   <br>&bull; quiz on Lab 4 (15 minutes) <br>&bull; in-class [extra credit opportunity](j/extra_credit)| Dec 2/4: review for Exam2 -- [sample written portion](https://cs2113-f24.github.io/j-units/Exam2.pdf)  <br>&bull; Exam1 makeups (40 minutes at start of lab, optional, cap at 80)
-| 14   | Dec 9:    <br>&bull; written portion exam2 (required)  <br>&bull; live coding makeups (optional, cap at 80)    <br>&bull; quiz makeups (optional)                       |  Dec 9/11: <i>no lab</i>                                                                                                             |                                               |
-|    | Final Exam week: we do NOT have a final exam in this class
+| Week | Lecture (Mon)  | Reading    |                                                                                                      | Lab ( Wed)     
+| 0    | Jan 13: History of <a href="https://dl.acm.org/doi/pdf/10.1145/1134285.1134288">Software Engineering</a> <br> In-class start of semester assessment | Jan 15: [Lab 0 -- git setup](lab/0) (Due Fri Jan 17) | none |
 
+|     | <i>no lecture</i>   | Jan 22:  submitserver setup  <br> Lab 1: debugging with print statements exercise |   none |         
+                                     |
+| 1    | Jan 27: [J0 Worksheet -- understanding unit tests](worksheet/j0) <br> Lab 2: Debugging with unit tests | Jan 22: [lecture on markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) | [J0 - Java, OOP, Encapsulation](j/0) |
+
+| 2    | Feb 3: [J1 Worksheet](worksheet/j1) <br> Quiz 1: Debugging with unit tests <br> Lab 3: Writing your own test cases | Jan 29: Lab 4: Finding faults with unit tests | [S1 - Writing Test Cases](j/software_testing) |
+
+| 3    | Feb 10: [J2 Worksheet](worksheet/j2) <br> Quiz 2: Writing unit tests <br> Lab 4: UML exercise | Feb 5: begin [Lab 5 -- Enigma](lab/1) (Due Fri Sep 27) | [J1 - Inheritance and UML](j/1) |
+
+| 5    | Feb 17:  <i>no lecture</i>   | Feb 19: Quiz 3: UML diagram for Enigma lab     |                              none                           |
+
+| 4    | Feb 24: [J3 Worksheet](worksheet/j3) <br> Quiz 3: Enigma lab code comprehension (15 min)<br> Lab 6: [Debugging for polymorphism](worksheet/j10) | Feb 12: begin [Lab 7 -- Dot Chaser](lab/2) (Due Fri Oct 4) | [J2 - Polymorphism](j/2) |
+
+| 6    | Mar 3:   [J4 Worksheet](worksheet/j4) <br> Quiz 4: DotChaser lab code comprehension (15 min) <br> Lab 8: Debugging for interfaces and generics | Feb 26: live coding exam review| [J3 - Interfaces and Generics](j/3)  |
+                                                                              |
+|    | Mar 10: <i>no class</i>          | March 12: <i>no lab</i>   
+
+| 7    | Mar 17: Live coding exam (60 minutes) [sample live coding Exam1_Tester.java](./j-units/Exam1_Tester.java) [sample live coding Zoo.java](./j-units/Zoo.java)  | Mar 5:  [Lab 9 -- DC Metro](project/1)          
+  |    
+| 8    | Mar 17: Quiz 5: Metro Simulator comprehension quiz (15 min) | Mar 19: [Lab 10 -- Wordcount](lab/3) (Due Fri Nov 1)  |       [Exceptions and I/O](j/exceptions)    |                 
+
+| 9    | Mar 24:  [J6 Worksheet](worksheet/j6) <br> Quiz 6: WordCount comprehension quiz (15 min) <br> Lab 11: Threading debugging exercises | Mar 26:   Lab 12: github advanced topics  <br> Quiz 7: Threading | [J5 - Threading and Concurrency](j/5) |           
+                                                   |
+| 10    | Mar 31: [J7 Worksheet](worksheet/j7) <br> Lab 13: UML diagram for Client Server simulator   | Apr 2: begin [Lab 14 -- Client Server simulator](project/2) (Due Fri Nov 15)       | [J6 - Java IO and Networking](j/6) |
+
+| 11   | Apr 7: [J5 Worksheet](worksheet/j5) <br> Quiz 7: Client Server comprehension quiz <br>   | Apr 9:  [Lab 15 -- GUI Enigma](lab/4) (Due Fri Nov 22)    | [J4 - GUIs and Events](j/4)|
+
+| 12   | Apr 14: [J8 Worksheet](worksheet/j8) <br> [J9 Worksheet](worksheet/j9) <br> Quiz 8: GUI comprehension quiz   | Apr 16: <br> Lab 16: Debugging for GUIs | [S2 - Software Engineering Development](j/software_engineering) <br> [S3 - Design Patterns](j/design) |
+
+| 13   | Apr 21: [other programming languages and python](j/languages) <br> Quiz 9: [live debugging](j/extra_credit)| Apr 23: |    |
+
+| 14   | Apr 28: live coding makeups (optional, cap at 80)  <br> quiz makeups (optional)                       |  Apr 30: <i>no lab</i>                                                                                                             |                                               |
+|    | Final Exam week: we do NOT have a final exam in this class
 
 
 
