@@ -96,7 +96,7 @@ It is your responsibility to make sure that grades have been correctly entered i
 
 Regrade requests will only be considered for either 1) a grade being incorrectly recorded into Blackboard or 2) a grading rubric was not followed correctly. Please do not request to meet to "discuss" grades before emailing the instructional staff why your situation falls into one of these two situations first. 
 
-We also do not entertain any requests to arbitrarily "bump up" grades -- see the professionalism policy below. If you wish to discuss your final overall grade in the course, you may do this via email, or in-person. If you choose to do it in person, please email me to schedule a meeting. Final grade questions  will not be answered in regular office hours.
+We also do not entertain any requests to arbitrarily "bump up" grades -- see the professionalism policy below. If you wish to discuss your final overall grade in the course, you may do this via email, or in-person. If you choose to do it in person, please email me to schedule a meeting. Final grade questions will not be answered in regular office hours.
 
 ### Labs
 
@@ -131,6 +131,8 @@ Please allow instructional staff 24 business hours (M-F from 8am-4pm) to respond
 Students are expected to treat each other, the TAs, and the instructor professionally both in-person and in online communications and work. If unprofessional behavior is observed, a student will first receive a warning. Afterwards, their final grade in the course may be reduced up to 5% for additional acts of unprofessionalism.
 
 Knowingly asking the professor to violate or go against policies set in this syllabus will count as unprofessional behavior. 
+
+Students who exhibit unprofessional behavior, including but not limited to honor code violations, will not receive letters of recommendation from the professor for TA applications, graduate school, scholarships, etc. 
 
 ## Course Policies
 
