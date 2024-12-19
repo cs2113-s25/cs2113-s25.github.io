@@ -77,7 +77,7 @@ Having completed the pre-reqs, you are expected to submit well-written code:
    * 3%: Worksheets
    * 10%: Labs (equal weight)
    * 67%: Quizzes (equal weight)
-   * 20%: Live coding exam
+   * 20%: Live coding exam*
 
 We reserve the right to request access to the programming assignments for this class on your github repo (via github's collaborator mechanism). Failure to comply with such a request will automatically result in a zero on your programming assignment.
 
@@ -87,6 +87,8 @@ B+ (>= 88.0%) B (>= 82.0%) B– (>= 80.0%)
 C+ (>= 78.0%) C (>= 72.0%) C– (>= 70.0%)
 D (>= 60.0%)
 F (< 60.0%)
+
+**You must earn an 80 or higher on the live coding assessment in order to pass this course (otherwise your grade will be an F)**
 
 **It is your responsibility to submit your code early and often to the submitserver** and ensure it passes all the test cases there. Note that, under load, the submitserver may take longer than a few seconds to return your score if many other students are also using it simultaneously. We will not accept any code that has not been submitted to the submitserver before the deadline. When using the submitserver, your grade will be the score you see on the submitserver. Make sure you leave yourself ample time before assignment submission to get help with any issues that you may run into when submitting your code.
 
