@@ -59,17 +59,7 @@ There are **NO REQUIRED** textbooks for this course. You do not need to use outs
 ### Expected time commitment
 The GW standard is that one credit hour corresponds to *a minimum* of 50 minutes of instruction plus 100 minutes of independent learning (e.g., homework and exam prep) per week. This is a 3 credit course, thus you should expect to spend 2.5-3 hours in class and 50 minutes in lab, **plus four to five hours of independent learning per week, which may include completing programming assignments.** 
 
-The amount of time you spend per week may be more or less, depending on the topic and the current assignments, but you should set aside time to complete your work for this class, both during lecture and out. 
-
-### Programming Expectations
-
-The course will be **extremely programming-intensive**. You should be prepared to spend most of your out-of-class and in-class time writing and designing software. 
-
-Having completed the pre-reqs, you are expected to submit well-written code:
-
-- Write legible, well-documented code.
-- Be able to describe and answer questions about your code when prompted.
-- Commit your changes incrementally to git, whether in the same day/coding session, or across days. Your git commit history must show evidence that you worked on your code meaningfully over time (as opposed to just checking in large blocks of code). We recommend students commit after they pass a new test case.
+The amount of time you spend per week may be more or less, depending on the topic and the current assignments, but you should set aside time to complete your work for this class, both during lecture and out. The course will be **extremely programming-intensive**. 
 
 ## Grading 
 
@@ -88,17 +78,23 @@ C+ (>= 78.0%) C (>= 72.0%) C– (>= 70.0%)
 D (>= 60.0%)
 F (< 60.0%)
 
-**You must earn an 80 or higher on the live coding assessment in order to pass this course (otherwise your grade will be an F)**
+* **You must earn an 80 or higher on the live coding assessment in order to pass this course (otherwise your grade will be an F).**
+
+Having completed the pre-reqs, you are expected to submit well-written code:
+
+- Write legible, well-documented code.
+- Be able to describe and answer questions about your code when prompted.
+- Commit your changes incrementally to git, whether in the same day/coding session, or across days. Your git commit history must show evidence that you worked on your code meaningfully over time (as opposed to just checking in large blocks of code). We recommend students commit after they pass a new test case.
 
 **It is your responsibility to submit your code early and often to the submitserver** and ensure it passes all the test cases there. Note that, under load, the submitserver may take longer than a few seconds to return your score if many other students are also using it simultaneously. We will not accept any code that has not been submitted to the submitserver before the deadline. When using the submitserver, your grade will be the score you see on the submitserver. Make sure you leave yourself ample time before assignment submission to get help with any issues that you may run into when submitting your code.
 
-### Re-grade requests and grades on Blackboard
+### Re-grade requests and grades on the submitserver
 
-It is your responsibility to make sure that grades have been correctly entered in Blackboard in a timely manner. Please make sure that Blackboard reflects your correct scores within two weeks of an assignment due date; we will not adjust scores after this deadline. Please be aware that Blackboard does not weight overall course grades correctly. You can calculate your grade in the course at any time by referring to the raw scores on Blackboard, and using the weights above to calculate your grade in the class. No assignments will be accepted for re-grade requests after final grades have been recorded in Blackboard.
+It is your responsibility to make sure that grades have been correctly entered on the submitserver in a timely manner. Please make sure that the submitserver reflects your correct scores within two weeks of an assignment due date; we will not adjust scores after this deadline. You can calculate your grade in the course at any time by referring to the raw scores on the submitserver, and using the weights above to calculate your grade in the class. No assignments will be accepted for re-grade requests after final grades have been recorded on Blackboard.
 
-Regrade requests will only be considered for either 1) a grade being incorrectly recorded into Blackboard or 2) a grading rubric was not followed correctly. Please do not request to meet to "discuss" grades before emailing the instructional staff why your situation falls into one of these two situations first. 
+Regrade requests will only be considered for either 1) a grade being incorrectly recorded on the submitserver/Blackboard or 2) a grading rubric was not followed correctly. Please do not request to meet to "discuss" grades before emailing the instructional staff why your situation falls into one of these two situations first. 
 
-We also do not entertain any requests to arbitrarily "bump up" grades -- see the professionalism policy below. If you wish to discuss your final overall grade in the course, you may do this via email, or in-person. If you choose to do it in person, please email me to schedule a meeting. Final grade questions will not be answered in regular office hours.
+**We also do not entertain any requests to arbitrarily "bump up" grades** -- see the professionalism policy below. If you wish to discuss your final overall grade in the course, you may do this via email, or in-person. If you choose to do it in person, please email me to schedule a meeting. Final grade questions will not be answered in regular office hours.
 
 ### Labs
 
@@ -112,7 +108,7 @@ There will also be one live coding exam that students will take on school-provid
 
 ### Worksheets
 
-This class is taught as a flipped classroom; you are expected to do the weekly readings before coming to class. During lecture, we will complete worksheets together that are due on Mondays at 11:59pm.
+This class is taught as a flipped classroom; you are expected to do the weekly readings before coming to class. During lecture, we will complete worksheets together that are due on Mondays at 11:59pm. These will be graded for correctness.
 
 ## Submission/Late Work Policy
 
