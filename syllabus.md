@@ -88,13 +88,13 @@ Having completed the pre-reqs, you are expected to submit well-written code:
 
 **It is your responsibility to submit your code early and often to the submitserver** and ensure it passes all the test cases there. Note that, under load, the submitserver may take longer than a few seconds to return your score if many other students are also using it simultaneously. We will not accept any code that has not been submitted to the submitserver before the deadline. When using the submitserver, your grade will be the score you see on the submitserver. Make sure you leave yourself ample time before assignment submission to get help with any issues that you may run into when submitting your code.
 
-### Re-grade requests and grades on the submitserver
+### Re-grade requests and grades on the submitserver/Blackboard
 
-It is your responsibility to make sure that grades have been correctly entered on the submitserver in a timely manner. Please make sure that the submitserver reflects your correct scores within two weeks of an assignment due date; we will not adjust scores after this deadline. You can calculate your grade in the course at any time by referring to the raw scores on the submitserver, and using the weights above to calculate your grade in the class. No assignments will be accepted for re-grade requests after final grades have been recorded on Blackboard.
+It is your responsibility to make sure that Blackboard reflects your correct scores within two weeks of an assignment due date; we will not adjust scores after this deadline. You can calculate your grade in the course at any time by referring to the raw scores on Blackboard, and using the weights above to calculate your grade in the class. No assignments will be accepted for re-grade requests after final grades have been recorded on Blackboard. **You have 48 hours to notify the professor of any issues with final grades recorded to Blackboard once they have been posted there**; we will not entertain regrade requests and other related questions after that time. 
 
 Regrade requests will only be considered for either 1) a grade being incorrectly recorded on the submitserver/Blackboard or 2) a grading rubric was not followed correctly. Please do not request to meet to "discuss" grades before emailing the instructional staff why your situation falls into one of these two situations first. 
 
-**We also do not entertain any requests to arbitrarily "bump up" grades** -- see the professionalism policy below. If you wish to discuss your final overall grade in the course, you may do this via email, or in-person. If you choose to do it in person, please email me to schedule a meeting. Final grade questions will not be answered in regular office hours.
+**We also do not entertain any requests to arbitrarily "bump up" grades, and we do not offer grades for effort** -- see the professionalism policy below. If you wish to discuss your final overall grade in the course, you may do this via email, or in-person. If you choose to do it in person, please email me to schedule a meeting. Final grade questions will not be answered in regular office hours.
 
 ### Labs
 
