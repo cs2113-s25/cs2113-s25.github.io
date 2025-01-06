@@ -78,7 +78,7 @@ C+ (>= 78.0%) C (>= 72.0%) C– (>= 70.0%)
 D (>= 60.0%)
 F (< 60.0%)
 
-* **You must earn an 80 or higher on the live coding assessment in order to pass this course (otherwise your grade will be an F).**
+* You must earn an 80 or higher on the live coding assessment in order to pass this course (otherwise your grade will be an F).
 
 Having completed the pre-reqs, you are expected to submit well-written code:
 
@@ -94,7 +94,7 @@ It is your responsibility to make sure that Blackboard reflects your correct sco
 
 Regrade requests will only be considered for either 1) a grade being incorrectly recorded on the submitserver/Blackboard or 2) a grading rubric was not followed correctly. Please do not request to meet to "discuss" grades before emailing the instructional staff why your situation falls into one of these two situations first. 
 
-**We also do not entertain any requests to arbitrarily "bump up" grades, and we do not offer grades for effort** -- see the professionalism policy below. If you wish to discuss your final overall grade in the course, you may do this via email, or in-person. If you choose to do it in person, please email me to schedule a meeting. Final grade questions will not be answered in regular office hours.
+**We also do not entertain any requests to arbitrarily "bump up" grades, and we do not offer grades for effort** -- see the professionalism policy below. If you wish to have the professor review how your final grade was calculated according to the grading policy above, you may do this via email, or in-person. If you choose to do it in person, please email to schedule a meeting and include your own calculations for reference. Final grade questions will not be answered in regular office hours.
 
 ### Labs
 
