@@ -23,8 +23,8 @@ aside:
 * Lecture: MPA 305
   * Mon 10AM - 12:30PM with Dr. Kinga (professor)
 * Lab
-  * Wed 11:10AM - 12:25PM (SEH 4040, section 31) with TBA
-  * Wed 11:10AM - 12:25PM (TOMP 405, section 30) with TBA
+  * Wed 11:10AM - 12:25PM (SEH 4040, section 31) with Cole Knie
+  * Wed 11:10AM - 12:25PM (TOMP 405, section 30) with Manaaf Ghadiali
 
 
 ### Office hours
