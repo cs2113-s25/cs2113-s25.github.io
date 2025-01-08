@@ -28,10 +28,16 @@ aside:
 
 
 ### Office hours
-* TBA
+
+* Manaaf Ghadiali, GTA, Tuesdays/Thursdays 10-12am SEH 4th floor couches and Fridays 10-11am on zoom
+* Cole Knie, GTA, Monday lectures, Wednesdays 12-2pm and Fridays 10-11am in SEH 4th floor couches
+* Marcell Ambush, LA, TBA
 
 ### Grading
-* TBA
+
+* Worksheets: Manaaf Ghadiali, [abdemanaaf.ghadiali@gwmail.gwu.edu](mailto:abdemanaaf.ghadiali@gwmail.gwu.edu)
+* Labs: Cole Knie, [coleknie@gwmail.gwu.edu](mailto:coleknie@gwmail.gwu.edu)
+* Quizzes: Dr Kinga, [kinga@gwu.edu](mailto:kinga@gwu.edu)
 
 ## Course Details 
 
