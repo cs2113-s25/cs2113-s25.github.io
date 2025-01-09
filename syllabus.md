@@ -167,6 +167,12 @@ You may NOT:
 
 ## Selected university policies and recommendations
 
+<details>
+<summary>TITLE</summary>
+
+BODY CONTENT
+
+</details>
 
 
 # Learning disabilities
