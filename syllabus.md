@@ -167,28 +167,22 @@ You may NOT:
 
 ## Selected university policies and recommendations
 
-:::{.callout-tip collapse="true"}
+
 
 # Learning disabilities
 
 If you are a student with a disability and you need academic accommodations, please see the instructor during the first week of class, and contact the [Disability Support Services Office](https://disabilitysupport.gwu.edu/). All academic accommodations must be arranged through DSSO.
-:::
 
-:::{.callout-tip collapse="true"}
 
 # University policy on observance of religious holidays
 
 Students must notify faculty no later than three weeks prior to the absence, of their intention to be absent from class on their day(s) of religious observance. If the holiday falls within the first three weeks of class, the student must inform faculty in the first week of the semester. For details and policy, see “Religious Holidays” at provost.gwu.edu/policies-procedures-and-guidelines.
-:::
 
-:::{.callout-tip collapse="true"}
 
 # Counseling and psychological Services (202-994-5300)
 
 GW’s Colonial Health Center offers counseling and psychological services, supporting mental health and personal development by collaborating directly with students to overcome challenges and difficulties that may interfere with academic, emotional, and personal success. healthcenter.gwu.edu/counseling-and-psychological-services.
-:::
 
-:::{.callout-tip collapse="true"}
 
 # Safety and security
 
@@ -196,14 +190,12 @@ GW’s Colonial Health Center offers counseling and psychological services, supp
 * In an emergency: call GWPD/EMeRG 202-994-6111 or 911
 * For situation-specific actions: refer to GW's Emergency Response Handbook and Emergency Operations Plan
 * In the event of an armed Intruder: Run. Hide. Fight.
-:::
 
-:::{.callout-tip collapse="true"}
 
 # Use of electronic course materials and class recordings
 
 Students are encouraged to use electronic course materials, including recorded class sessions, for private personal use in connection with their academic program of study. Electronic course materials and recorded class sessions should not be shared or used for non-course related purposes unless express permission has been granted by the instructor. Students who impermissibly share any electronic course materials are subject to discipline under the Student Code of Conduct. Please contact the instructor if you have questions regarding what constitutes permissible or impermissible use of electronic course materials and/or recorded class sessions. Please contact Disability Support Services at disabilitysupport.gwu.edu if you have questions or need assistance in accessing electronic course materials.
-:::
+
 
 
 
@@ -212,7 +204,7 @@ Students are encouraged to use electronic course materials, including recorded c
 
 
 <details>
-  <summary><i>Diversity and inclusion </i></summary>
+  <summary>Diversity and inclusion</summary>
   All people have the right to be addressed and referred to in accordance with their personal identity. In this class, we will have the chance to indicate the name that we prefer to be called and, if we choose, to identify pronouns with which we would like to be addressed. I will do my best to address and refer to all students accordingly and support classmates in doing so as well.
 </details>
 
