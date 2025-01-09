@@ -16,7 +16,7 @@ aside:
 
 * **Instructor:** Dr. Kinga Dobolyi
 * **Email:** [kinga@gwu.edu](mailto:kinga@gwu.edu)
-* **Prerequisites:** CS 1112 or equivalent (See [undergraduate curriculum](www.cs.seas.gwu.edu/bachelor-science-program/)).
+* **Prerequisites:** CS 1112 (with a C or better)
 
 ### Meeting Time and Course Staff
 
@@ -29,15 +29,16 @@ aside:
 
 ### Office hours
 
-* Manaaf Ghadiali, GTA, Tuesdays/Thursdays 10-12am SEH 4th floor couches and Fridays 10-11am on zoom
-* Cole Knie, GTA, Monday lectures, Wednesdays 12-2pm and Fridays 10-11am in SEH 4th floor couches
+* Manaaf Ghadiali, GTA, Tuesdays/Thursdays 10-12am SEH 4th floor couches and Fridays 10-11am on [zoom](https://gwu-edu.zoom.us/s/91330456265?pwd=Ei8RYSkud43YcUz4tOkACBSqUsNGSR.1)
+* Cole Knie, GTA, Monday lectures, Tuesdays 2-3:15pm and Wednesdays 12:45-2pm in SEH 4th floor couches
 * Marcell Ambush, LA, TBA
 
 ### Grading
 
 * Worksheets: Manaaf Ghadiali, [abdemanaaf.ghadiali@gwmail.gwu.edu](mailto:abdemanaaf.ghadiali@gwmail.gwu.edu)
 * Labs: Cole Knie, [coleknie@gwmail.gwu.edu](mailto:coleknie@gwmail.gwu.edu)
-* Quizzes: Dr Kinga, [kinga@gwu.edu](mailto:kinga@gwu.edu)
+* Lab comprehension quizzes: Dr Kinga, [kinga@gwu.edu](mailto:kinga@gwu.edu)
+* Other quizzes: Manaaf and/or Cole
 
 ## Course Details 
 
@@ -75,7 +76,6 @@ The amount of time you spend per week may be more or less, depending on the topi
    * 67%: Quizzes (equal weight)
    * 20%: Live coding exam*
 
-We reserve the right to request access to the programming assignments for this class on your github repo (via github's collaborator mechanism). Failure to comply with such a request will automatically result in a zero on your programming assignment.
 
 Final course grades are calculated as follows:
 A (>= 92.0%) A– (>= 90.0%)
@@ -84,19 +84,20 @@ C+ (>= 78.0%) C (>= 72.0%) C– (>= 70.0%)
 D (>= 60.0%)
 F (< 60.0%)
 
-* You must earn an 80 or higher on the live coding assessment in order to pass this course (otherwise your grade will be an F).
+\* You must earn an 80 or higher on the live coding assessment in order to pass this course (otherwise your grade will be an F).
 
-Having completed the pre-reqs, you are expected to submit well-written code:
+Having completed the pre-reqs, you are expected to:
 
 - Write legible, well-documented code.
 - Be able to describe and answer questions about your code when prompted.
 - Commit your changes incrementally to git, whether in the same day/coding session, or across days. Your git commit history must show evidence that you worked on your code meaningfully over time (as opposed to just checking in large blocks of code). We recommend students commit after they pass a new test case.
+- We reserve the right to request access to the programming assignments for this class on your github repo (via github's collaborator mechanism). Failure to comply with such a request will automatically result in a zero on your programming assignment.
 
 **It is your responsibility to submit your code early and often to the submitserver** and ensure it passes all the test cases there. Note that, under load, the submitserver may take longer than a few seconds to return your score if many other students are also using it simultaneously. We will not accept any code that has not been submitted to the submitserver before the deadline. When using the submitserver, your grade will be the score you see on the submitserver. Make sure you leave yourself ample time before assignment submission to get help with any issues that you may run into when submitting your code.
 
 ### Re-grade requests and grades on the submitserver/Blackboard
 
-It is your responsibility to make sure that Blackboard reflects your correct scores within two weeks of an assignment due date; we will not adjust scores after this deadline. You can calculate your grade in the course at any time by referring to the raw scores on Blackboard, and using the weights above to calculate your grade in the class. No assignments will be accepted for re-grade requests after final grades have been recorded on Blackboard. **You have 48 hours to notify the professor of any issues with final grades recorded to Blackboard once they have been posted there**; we will not entertain regrade requests and other related questions after that time. 
+It is your responsibility to make sure that Blackboard reflects your correct scores within two weeks of an assignment due date; we will not adjust scores after this deadline. You can calculate your grade in the course at any time by referring to the raw scores on Blackboard, and using the weights above to calculate your grade in the class. No assignments will be accepted for re-grade requests after final course grades have been recorded on Blackboard. **You have 48 hours to notify the professor of any issues with final grades recorded to Blackboard once they have been posted there**; we will not entertain regrade requests and other related questions after that time. 
 
 Regrade requests will only be considered for either 1) a grade being incorrectly recorded on the submitserver/Blackboard or 2) a grading rubric was not followed correctly. Please do not request to meet to "discuss" grades before emailing the instructional staff why your situation falls into one of these two situations first. 
 
@@ -104,7 +105,7 @@ Regrade requests will only be considered for either 1) a grade being incorrectly
 
 ### Labs
 
-You will usually have one or two labs each week. These are due Fridays at 11:59pm on the submitserver/BB. However, you may submit them up until class time on Mondays without penalty, but there will be no office hours nor Ed support for these assignments after the Friday due date.
+You will usually have one or two labs each week. These are **due Fridays at 11:59pm on the submitserver/BB**. However, you may submit them up until class time on Mondays without penalty, but there will be no office hours nor Ed support for these assignments after the Friday due date. The lowest scoring lab will be dropped from your grade.
 
 ### Quizzes and Exams
 
@@ -114,19 +115,21 @@ There will also be one live coding exam that students will take on school-provid
 
 ### Worksheets
 
-This class is taught as a flipped classroom; you are expected to do the weekly readings before coming to class. During lecture, we will complete worksheets together that are due on Mondays at 11:59pm. These will be graded for correctness.
+This class is taught as a flipped classroom; you are expected to do the weekly readings before coming to class. During lecture, we will complete worksheets together that are **due on Mondays at 11:59pm** (the same day of lecture). These will be graded for correctness. The lowest scoring worksheet will be dropped from your grade.
 
-## Submission/Late Work Policy
+## Submission/Late Work Policy/Extensions
 
 All assignments are due in EST.
 
 We do not accept late work in this course. 
 
+We do not offer extensions in this course.
+
+If you are missing class due to a extended unforseen absence (such as hospitalization) or documented scheduled absence (such as surgery or court) please email the professor to let them know and send along the documentation for these events. Makeup work will be at the professor's discretion; extended abscences such as vacations will not be excused, for example. We do not require, and are not permitted to accept, doctor's notes to excuse short-term illnesses (that do not require hospitalization); instead, we drop the lowest of various missed assignments or allow for a makeup according to the class schedule. For situations that fall outside what is described in this syllabus, a note from Dean Zara will be required.
+
 ## Class Communication
 
-We will use two primary forms of communication in this class: email announcements and [Ed](https://edstem.org/us/courses/69891/discussion/). You are responsible for remaining up to date on any information sent by email or posted to Ed. This may include clarifications to assignments, updates on grading rubrics, and changes in office hours. 
-
-For all general course information, questions, and clarifications, you should preference to using Ed. An instructor, TA, or even your fellow classmate can then answer a question. You can even post your questions anonymously. If you have personal, individual issues you'd like addressed, you should send those by  email to the course instructor. However, all course related topics should be directed to Ed.
+Make sure to check [Ed](https://edstem.org/us/courses/69891/discussion/) at least once every weekday. 
 
 Please allow instructional staff 24 business hours (M-F from 8am-4pm) to respond to email and Ed messages. A message sent on a Friday afternoon may only be answered on a Monday. We can often reply much more quickly, but please do not wait until the last minute to ask your questions and/or start assignments.
 
@@ -162,32 +165,53 @@ You may NOT:
 
 *Penalties for violating the code or the policies described here include failing this course*, and are elaborated in the [GW Academic Integrity Code](https://studentconduct.gwu.edu/code-academic-integrity). Note that the _minimum_ punishment is failure of the assignment. Additional actions could include failure of the class, suspension, or expulsion. 
 
-### Use of Electronic Course Materials and Class Recordings
+## Selected university policies and recommendations
 
-Students are encouraged to use electronic course materials, including recorded class sessions, for private personal use in connection with their academic program of study. Electronic course materials and recorded class sessions should not be shared or used for non-course related purposes unless express permission has been granted by the instructor. Students who impermissibly share any electronic course materials are subject to discipline under the Student Code of Conduct. Please contact the instructor if you have questions regarding what constitutes permissible or impermissible use of electronic course materials and/or recorded class sessions. Please contact Disability Support Services if you have questions or need assistance in accessing electronic course materials.
+:::{.callout-tip collapse="true"}
 
-### University policy on observance of religious holidays
+# Learning disabilities
 
-In accordance with University policy, students should notify faculty during the first week of the semester of their intention to be absent from class on their day(s) of religious observance. For details and policy, see [Religious Holidays](provost.gwu.edu/policies-procedures-and-guidelines) on the Provost web page. 
+If you are a student with a disability and you need academic accommodations, please see the instructor during the first week of class, and contact the [Disability Support Services Office](https://disabilitysupport.gwu.edu/). All academic accommodations must be arranged through DSSO.
+:::
 
+:::{.callout-tip collapse="true"}
 
-### Disability Support Services (DSS)
+# University policy on observance of religious holidays
 
-Any student who may need an accommodation based on the potential impact of a disability should contact [Disability Support Services](https://gwusec.seas.gwu.edu/) (or call 202-994-8250) to establish eligibility and to coordinate accommodations. 
+Students must notify faculty no later than three weeks prior to the absence, of their intention to be absent from class on their day(s) of religious observance. If the holiday falls within the first three weeks of class, the student must inform faculty in the first week of the semester. For details and policy, see “Religious Holidays” at provost.gwu.edu/policies-procedures-and-guidelines.
+:::
 
-### Safety and Security
+:::{.callout-tip collapse="true"}
 
-• Monitor GW Alerts and Campus Advisories to Stay Informed before and during an emergency event or situation
-• In an emergency: call GWPD/EMeRG 202-994-6111 or 911
-• For situation-specific actions: refer to GW's Emergency Response Handbook and Emergency Operations Plan
-• In the event of an armed Intruder: Run. Hide. Fight. 
+# Counseling and psychological Services (202-994-5300)
 
+GW’s Colonial Health Center offers counseling and psychological services, supporting mental health and personal development by collaborating directly with students to overcome challenges and difficulties that may interfere with academic, emotional, and personal success. healthcenter.gwu.edu/counseling-and-psychological-services.
+:::
 
-### Diversity and Inclusion
+:::{.callout-tip collapse="true"}
 
-All people have the right to be addressed and referred to in accordance with their personal identity. In this class, we will have the chance to indicate the name that we prefer to be called and, if we choose, to identify pronouns with which we would like to be addressed. I will do my best to address and refer to all students accordingly and support classmates in doing so as well. 
+# Safety and security
 
-For more resources, see the [CS Dept JEDI homepage](https://www.cs.seas.gwu.edu/justice-equity-diversity-and-inclusion-jedi-committee).
+* Monitor GW Alerts and Campus Advisories to Stay Informed before and during an emergency event or situation
+* In an emergency: call GWPD/EMeRG 202-994-6111 or 911
+* For situation-specific actions: refer to GW's Emergency Response Handbook and Emergency Operations Plan
+* In the event of an armed Intruder: Run. Hide. Fight.
+:::
+
+:::{.callout-tip collapse="true"}
+
+# Use of electronic course materials and class recordings
+
+Students are encouraged to use electronic course materials, including recorded class sessions, for private personal use in connection with their academic program of study. Electronic course materials and recorded class sessions should not be shared or used for non-course related purposes unless express permission has been granted by the instructor. Students who impermissibly share any electronic course materials are subject to discipline under the Student Code of Conduct. Please contact the instructor if you have questions regarding what constitutes permissible or impermissible use of electronic course materials and/or recorded class sessions. Please contact Disability Support Services at disabilitysupport.gwu.edu if you have questions or need assistance in accessing electronic course materials.
+:::
+
+:::{.callout-tip collapse="true"}
+
+# Diversity and inclusion 
+
+All people have the right to be addressed and referred to in accordance with their personal identity. In this class, we will have the chance to indicate the name that we prefer to be called and, if we choose, to identify pronouns with which we would like to be addressed. I will do my best to address and refer to all students accordingly and support classmates in doing so as well.
+:::
+
 
 ## Acknowledgments
 
