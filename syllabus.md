@@ -104,7 +104,7 @@ Regrade requests will only be considered for either 1) a grade being incorrectly
 
 ### Labs
 
-You will usually have one or two labs each week. These are due Fridays at 11:59pm on the submitserver. However, you may submit them up until class time on Mondays without penalty, but there will be no office hours nor Ed support for these assignments after the Friday due date.
+You will usually have one or two labs each week. These are due Fridays at 11:59pm on the submitserver/BB. However, you may submit them up until class time on Mondays without penalty, but there will be no office hours nor Ed support for these assignments after the Friday due date.
 
 ### Quizzes and Exams
 
