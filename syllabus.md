@@ -32,6 +32,7 @@ aside:
 * Manaaf Ghadiali, GTA, Tuesdays/Thursdays 10-12am SEH 4th floor couches and Fridays 10-11am on [zoom](https://gwu-edu.zoom.us/s/91330456265?pwd=Ei8RYSkud43YcUz4tOkACBSqUsNGSR.1)
 * Cole Knie, GTA, Monday lectures, Tuesdays 2-3:15pm and Wednesdays 12:45-2pm in SEH 4th floor couches
 * Marcell Ambush, LA, TBA
+* Dr Kinga: Tuesdays 12:45-2pm in SEH 4655 and Wednesdays 8:45am-10:00am on [zoom](https://gwu-edu.zoom.us/j/6378326351)
 
 ### Grading
 
