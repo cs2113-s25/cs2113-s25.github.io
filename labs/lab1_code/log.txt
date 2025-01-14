@@ -1,0 +1,217 @@
+........	0x4c796efaf266........	2025-01-14 08:37:33.608296........	0x4c796efaf266........	2025-01-14 08:37:33.615321........	0x4c796efaf266........	2025-01-14 08:37:33.617568*** 
+		--- 
+		***************
+		*** 77,78 ****
+		  
+		! print(possible_courses["elective_1"].count("CSCI 2501#Ethical Issues in Computing"))		--- 77,79 ----
+		  
+		! print(possible_courses["elective_1"].count("CSCI 2501#Ethical Issues in Computing"))
+		! print(possible_courses["elective_1"])........	0x4c796efaf266........	2025-01-14 08:41:21.019554........	0x4c796efaf266........	2025-01-14 08:41:21.023883........	0x4c796efaf266........	2025-01-14 08:41:21.036450*** 
+		--- 
+		***************
+		*** 61,62 ****
+		--- 61,63 ----
+		  
+		+ print(possible_courses["elective_1"].count("CSCI 2501#Ethical Issues in Computing"))
+		  big_dict = reformatForFrontEnd(possible_courses)
+		***************
+		*** 78,79 ****
+		  print(possible_courses["elective_1"].count("CSCI 2501#Ethical Issues in Computing"))
+		- print(possible_courses["elective_1"])		--- 79 ----
+........	0x4c796efaf266........	2025-01-14 08:46:34.467304........	0x4c796efaf266........	2025-01-14 08:46:34.471658........	0x4c796efaf266........	2025-01-14 08:46:34.482418*** 
+		--- 
+		***************
+		*** 50,52 ****
+		  possible_courses["ntt_3"] = ntt
+		! 
+		  possible_courses["elective_1"] = electives
+		--- 50,52 ----
+		  possible_courses["ntt_3"] = ntt
+		! print(electives.count("CSCI 2501#Ethical Issues in Computing"))
+		  possible_courses["elective_1"] = electives
+........	0x4c796efaf266........	2025-01-14 09:03:56.794695........	0x4c796efaf266........	2025-01-14 09:03:56.798962*** 
+		--- 
+		***************
+		*** 73,75 ****
+		  # electives are similar in requirements to NTT, but they do allow you to take additional CS courses (with some restrictions)
+		! 
+		  electives, cs_tech_courses = beautifyElectives(all_courses, electives)
+		--- 73,75 ----
+		  # electives are similar in requirements to NTT, but they do allow you to take additional CS courses (with some restrictions)
+		! print("DEBUG 3: electives count: " + str(electives.count("CSCI 2501#Ethical Issues in Computing")))
+		  electives, cs_tech_courses = beautifyElectives(all_courses, electives)
+........	0x4c796efaf266........	2025-01-14 09:03:56.810893........	0x4c796efaf266........	2025-01-14 09:28:11.179188*** 
+		--- 
+		***************
+		*** 121,125 ****
+		  
+		! def beautifyElectives(all_courses, electives):
+		  	cs_tech_courses = []
+		  	for course in all_courses:
+		  		if "CSCI" in course:
+		--- 121,127 ----
+		  
+		! def beautifyElectives(all_courses, elec):
+		  	cs_tech_courses = []
+		+ 	print("all_courses: " + str(all_courses))
+		  	for course in all_courses:
+		+ 		print("course: " + str(course))
+		  		if "CSCI" in course:
+		***************
+		*** 127,134 ****
+		  			cs_name = course.split("#")[0]
+		  			cs_num = cs_name.split(" ")[1]
+		  			if int(cs_num[:4]) > 2461:
+		! 				electives.append(course)
+		  			else:
+		! 				electives.remove(course)
+		! 	return electives, cs_tech_courses
+		  
+		--- 129,138 ----
+		  			cs_name = course.split("#")[0]
+		+ 			print("cs_name: " + str(cs_name))
+		  			cs_num = cs_name.split(" ")[1]
+		+ 			print("cs_num: " + str(cs_num))
+		  			if int(cs_num[:4]) > 2461:
+		! 				elec.append(course)
+		  			else:
+		! 				elec.remove(course)
+		! 	return elec, cs_tech_courses
+		  
+........	0x4c796efaf266........	2025-01-14 09:28:11.191437........	0x4c796efaf266........	2025-01-14 09:28:11.194527........	0x4c796efaf266........	2025-01-14 09:32:35.624296*** 
+		--- 
+		***************
+		*** 123,127 ****
+		  	cs_tech_courses = []
+		- 	print("all_courses: " + str(all_courses))
+		  	for course in all_courses:
+		- 		print("course: " + str(course))
+		  		if "CSCI" in course:
+		--- 123,125 ----
+		***************
+		*** 129,137 ****
+		  			cs_name = course.split("#")[0]
+		- 			print("cs_name: " + str(cs_name))
+		  			cs_num = cs_name.split(" ")[1]
+		! 			print("cs_num: " + str(cs_num))
+		! 			if int(cs_num[:4]) > 2461:
+		  				elec.append(course)
+		  			else:
+		! 				elec.remove(course)
+		  	return elec, cs_tech_courses
+		--- 127,133 ----
+		  			cs_name = course.split("#")[0]
+		  			cs_num = cs_name.split(" ")[1]
+		! 			'''if int(cs_num[:4]) > 2461:
+		  				elec.append(course)
+		  			else:
+		! 				elec.remove(course)'''
+		  	return elec, cs_tech_courses
+........	0x4c796efaf266........	2025-01-14 09:32:35.628787........	0x4c796efaf266........	2025-01-14 09:32:35.630852........	0x4c796efaf266........	2025-01-14 09:33:15.001663........	0x4c796efaf266........	2025-01-14 09:33:15.005688........	0x4c796efaf266........	2025-01-14 09:33:15.007767*** 
+		--- 
+		***************
+		*** 79 ****
+		--- 79,80 ----
+		  print(possible_courses["elective_1"].count("CSCI 2501#Ethical Issues in Computing"))
+		+ print(possible_courses["elective_1"])
+........	0x4c796efaf266........	2025-01-14 09:34:04.143925*** 
+		--- 
+		***************
+		*** 128,133 ****
+		  			cs_num = cs_name.split(" ")[1]
+		! 			'''if int(cs_num[:4]) > 2461:
+		! 				elec.append(course)
+		! 			else:
+		! 				elec.remove(course)'''
+		  	return elec, cs_tech_courses
+		--- 128,134 ----
+		  			cs_num = cs_name.split(" ")[1]
+		! 			#if int(cs_num[:4]) > 2461:
+		! 			#	elec.append(course)
+		! 			#else:
+		! 			if int(cs_num[:4]) <= 2461:
+		! 				elec.remove(course)
+		  	return elec, cs_tech_courses
+........	0x4c796efaf266........	2025-01-14 09:34:04.147152........	0x4c796efaf266........	2025-01-14 09:34:04.157802........	0x4c796efaf266........	2025-01-14 09:35:27.721833........	0x4c796efaf266........	2025-01-14 09:35:27.725887........	0x4c796efaf266........	2025-01-14 09:35:27.728055*** 
+		--- 
+		***************
+		*** 79,80 ****
+		  print(possible_courses["elective_1"].count("CSCI 2501#Ethical Issues in Computing"))
+		! print(possible_courses["elective_1"])
+		--- 79,80 ----
+		  print(possible_courses["elective_1"].count("CSCI 2501#Ethical Issues in Computing"))
+		! print(possible_courses["elective_1"].count("CSCI 1111#Introduction to Software Development"))
+........	0x4c796efaf266........	2025-01-14 09:35:48.789306*** 
+		--- 
+		***************
+		*** 128,134 ****
+		  			cs_num = cs_name.split(" ")[1]
+		! 			#if int(cs_num[:4]) > 2461:
+		! 			#	elec.append(course)
+		! 			#else:
+		! 			if int(cs_num[:4]) <= 2461:
+		! 				elec.remove(course)
+		  	return elec, cs_tech_courses
+		--- 128,133 ----
+		  			cs_num = cs_name.split(" ")[1]
+		! 			'''if int(cs_num[:4]) > 2461:
+		! 				elec.append(course)
+		! 			else:
+		! 				elec.remove(course)'''
+		  	return elec, cs_tech_courses
+........	0x4c796efaf266........	2025-01-14 09:35:48.793314........	0x4c796efaf266........	2025-01-14 09:35:48.802855........	0x4c796efaf266........	2025-01-14 09:54:57.619928*** 
+		--- 
+		***************
+		*** 128,133 ****
+		  			cs_num = cs_name.split(" ")[1]
+		! 			'''if int(cs_num[:4]) > 2461:
+		  				elec.append(course)
+		  			else:
+		! 				elec.remove(course)'''
+		  	return elec, cs_tech_courses
+		--- 128,133 ----
+		  			cs_num = cs_name.split(" ")[1]
+		! 			if int(cs_num[:4]) > 2461:
+		  				elec.append(course)
+		  			else:
+		! 				elec.remove(course)
+		  	return elec, cs_tech_courses
+........	0x4c796efaf266........	2025-01-14 09:54:57.623974........	0x4c796efaf266........	2025-01-14 09:54:57.625975*** 
+		--- 
+		***************
+		*** 79,80 ****
+		  print(possible_courses["elective_1"].count("CSCI 2501#Ethical Issues in Computing"))
+		- print(possible_courses["elective_1"].count("CSCI 1111#Introduction to Software Development"))
+		--- 79 ----
+........	0x4c796efaf266........	2025-01-14 09:55:23.427869........	0x4c796efaf266........	2025-01-14 09:55:23.432889........	0x4c796efaf266........	2025-01-14 09:55:23.434891*** 
+		--- 
+		***************
+		*** 50,52 ****
+		  possible_courses["ntt_3"] = ntt
+		! print(electives.count("CSCI 2501#Ethical Issues in Computing"))
+		  possible_courses["elective_1"] = electives
+		--- 50,52 ----
+		  possible_courses["ntt_3"] = ntt
+		! 
+		  possible_courses["elective_1"] = electives
+		***************
+		*** 61,63 ****
+		  
+		! print(possible_courses["elective_1"].count("CSCI 2501#Ethical Issues in Computing"))
+		  big_dict = reformatForFrontEnd(possible_courses)
+		--- 61,63 ----
+		  
+		! 
+		  big_dict = reformatForFrontEnd(possible_courses)
+........	0x4c796efaf266........	2025-01-14 09:55:55.853653........	0x4c796efaf266........	2025-01-14 09:55:55.857499*** 
+		--- 
+		***************
+		*** 73,75 ****
+		  # electives are similar in requirements to NTT, but they do allow you to take additional CS courses (with some restrictions)
+		! print("DEBUG 3: electives count: " + str(electives.count("CSCI 2501#Ethical Issues in Computing")))
+		  electives, cs_tech_courses = beautifyElectives(all_courses, electives)
+		--- 73,75 ----
+		  # electives are similar in requirements to NTT, but they do allow you to take additional CS courses (with some restrictions)
+		! 
+		  electives, cs_tech_courses = beautifyElectives(all_courses, electives)
+........	0x4c796efaf266........	2025-01-14 09:55:55.867895
