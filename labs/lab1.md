@@ -18,17 +18,15 @@ Before you get started,
 
 ## Problem description
 
-We're working on an [advising tool frontend](https://faculty.cs.gwu.edu/goldfrank/advisingtool/) in the CS department (**it's not ready yet, so beware!**) to populate valid list of courses that meet each of the degree requirements. 
+We're working on an [advising tool frontend](https://faculty.cs.gwu.edu/goldfrank/advisingtool/) in the CS department (**it's not ready yet, so beware!**) to populate valid list of courses that meet each of the degree requirements. While we were writing this code, we had a bug: in the **NTT (non-tech track) requirement for the 2019-2021 Bachelor of Science (ancient, I know!) the attached code incorrectly generates duplicates into that list. Specifically, each of the three NTT options shows the course, `CSCI 2501` (which we also no longer offer) as listed twice. This is a bug!** There should be no duplicate courses in this or any of the lists for entries in the `possible_courses` dictionary.
 
-While we were writing this code, we had a bug: in the **NTT (non-tech track) requirement for the 2019-2021 Bachelor of Science (ancient, I know!) the attached code incorrectly generates duplicates into that list. Specifically, each of the three NTT options shows the course, `CSCI 2501` (which we also no longer offer) as listed twice. This is a bug!** There should be no duplicate courses in this or any of the lists for entries in the `possible_courses` dictionary.
-
-In particular, these NTT electives cannot be lower-level courses required for the CS major (such as this class); higher-level courses such as `CSCI 2501` should be allowed towards this requirement.
+In particular, these NTT electives cannot be lower-level courses required for the CS major (such as this class); higher-level courses such as `CSCI 2501` should be allowed towards this requirement (but they should *not* appear twice in this list, as they do now -- the bug).
 
 This is a (slightly modified) example of a real bug we encountered while writing this code. Note that the codebase is imperfect and realistic for a library you might find online or inherit: comments are sparse because the developer was in a rush and/or writing the code for themselves, functions are expected to be understood by looking at their contents, and the JSON files are enormous and virtually illegible due to their size. However, when this bug was live, we were able to isolate it and fix it in less than five minutes (though, to be fair, we were familiar with the codebase having written it ourselves). However, it may take you much longer if you're learning how to use print statements to debug.
 
 ## Part 1: Understanding what went wrong
 
-Take a minute to write down, in your own words in English, what the bug is -- if you're not sure (after trying), ask a neighbor for help. Make sure you can conceptualize what's wrong, using the description above, before you proceed.
+Take a minute to write down, in your own words in English, what the bug is -- if you're not sure (after trying), ask a neighbor for help. Make sure you can conceptualize what's wrong, using the description above, before you proceed. Ask the TA if you still need help.
 
 ### Reproducing the bug
 
@@ -45,7 +43,7 @@ Next, let's find the failing test case in the python file. Take a look at line 7
 ```python
 print(possible_courses["elective_1"].count("CSCI 2501#Ethical Issues in Computing"))
 ```
-You may not know any python, but what do you think this statement is doing? How did it print out the number `2` a moment ago? Verify with your neighbor that you understand what that line of code is doing conceptually, even if you don't know the details. 
+You may not know any python, but what do you think this statement is doing? How did it print out the number `2` a moment ago? Verify with your neighbor that you understand what that line of code is doing conceptually, even if you don't know the details. Ask the TA if you're still unsure.
 
 ### Working backwards to understand the code
 
@@ -118,7 +116,7 @@ print("DEBUG 3: electives count: " + str(electives.count("CSCI 2501#Ethical Issu
 ```
 Okay, progress! We see that `electives` was correct before this function call, but it's wrong after. Let's go inside the function. Where is `beautifyElectives` defined? If we scroll up, it's not in this file. So, it must come from the `utils_buggy.py` because that file is imported at the top here.
 
-Looking inside `utils_buggy.py` again, we see this function defined on line 122. One line 133, we can confirm the return statement is returning what `electives` will get assigned to: a local variable called `elec`. Where is that variable most recently modified? Looking up, there is an `if-else` on lines 129-132 where `elec` *must* be modified (since we have to take one of those two branches).
+Looking inside `utils_buggy.py` again, we see this function defined on line 122. On line 133, we can confirm the return statement is returning what `electives` will get assigned to: a local variable called `elec`. Where is that variable most recently modified? Looking up, there is an `if-else` on lines 129-132 where `elec` *must* be modified (since we have to take one of those two branches).
 
 # Part 3: Isolating and fixing the fault
 
@@ -139,7 +137,7 @@ print("DEBUG 4: cs_num: " + str(cs_num))
 ```
 to legibly print out `cs_num` with a label so you know which variable you're looking at.
 
-What are all these variables doing, based on what they are storing? Make sure you can explain each one in your own words -- if you're stuck, as a neighbor or a TA for help. Once you understand what these variables are storing, feel free to comment out those print statements if there is too much output to be legible.
+What are all these variables doing, based on what they are storing? Make sure you can explain each one in your own words -- if you're stuck, ask a neighbor or a TA for help. Once you understand what these variables are storing, feel free to comment out those print statements if there is too much output to be legible.
 
 Now, take a look at the `if-else` where we know the problem lies. What variable does it depend on? `cs_num[:4]` -- print this out to see what's in there:
 ```python
