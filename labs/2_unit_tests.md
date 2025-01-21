@@ -2,174 +2,91 @@
 layout: toc
 permalink: lab/2_unit_tests
 ---
+# Lab 2: Understanding Unit Tests
 
-*View the video explainer for this lab on [youtube](https://youtu.be/JGwK5nwuAps)*
+## Setup
 
+Create a new repo using all the steps in Lab 0 called `yourgitusername-worksheet-J0`. Then, add the following file to it:
 
-# Lab 0: Git Familiarization
+Download the [UnitTestExample.java](https://cs2113-s23.github.io/labs/UnitTestExample.java)
 
-The goal of this lab is to get you more comfortable with using `git`. You'll need this lab in order to submit your assignments this semester, which will always be done via `git`.
+Download the Junit jar file from the pinned post on Ed. Save it in the same directory as your java file (preserving the name `junit-platform-console-standalone-1.7.0-M1.jar`). This will allow you to run Junit tests through your terminal; there are also plugins for junit for text editors like VSCode if you want to google how to set that up.
 
-## Part 0: Creating a github account and installing software
+Download the [CS1111_checks.xml](https://www2.seas.gwu.edu/~kinga/CS1111_S22/labs/CS1111_checks.xml) into the same directory.
 
-You are **required** to have a github account for this class. 
+Download the [checkstyle-9.2.1-all.jar](https://github.com/checkstyle/checkstyle/releases/download/checkstyle-9.2.1/checkstyle-9.2.1-all.jar
+) into the same directory.
 
-### If you do not have a github account
+## Understanding unit tests
 
-You need to sign up for one :-) Not just for this class, but git is an industry standard used by just about any team that is writing code. Decide if you'd like to keep this git account for your entire career (don't worry, you can make your repos private!) or use one just for this class.
+We will use unit tests throughout the semester to test your code; while we'll learn about them more formally later in the semester, the goal of this assignment is to make sure you're familiar enough with the basics. In addition, we sometimes use unit tests in an unusual way, to pipe the output of running `main` into a string that we compare to an expected output. 
 
-1. Go to https://github.com/ and enter your info to “Sign up for GitHub”.
-2. Select a username and password -- your username is your github id
-   * For your github id, choose something tasteful. Your name with a hyphen, like `firstname-lastname` could be a good choice, but choose something you like and represents you. However, remember that your github username is publicly-visible.
-   * Note that for job interviews, you may want to advertise your github id, so don't choose something like `youallsuxor` ...
-3. Use an email address you have access to and check frequently. When there are issues/updates to your submissions, you'll get an email. You may want to use your GW email address for this. You can change your email in the future when you graduate.
+Open the `UnitTestExample.java` file, and take a look at the three tests. The first one is comparing `Earth` to `Earth`, and should pass. The second one is comparing `Moon` to `moon`, and will fail because the two strings are not equal. 
 
-### If you do have a github account
+The third test is running the Java Checkstyle command from the command line, and making sure that it reports no warnings. Right now, it also fails, because the file it is checking -- `UnitTestExample.java` -- doesn't have good coding style. We'll fix that and get it to pass in a minute.
 
-Please go to your account and check that ...
+## Running unit tests
 
-> You are using an email address that you check often because you will get important notifications.
+To run your unit tests -- remember, two of them will fail for now -- compile and run your code with the following commands on the terminal (depending on your OS):
 
+Windows:
+`javac -classpath ".;junit-platform-console-standalone-1.7.0-M1.jar" UnitTestExample.java`
+`java -classpath ".;junit-platform-console-standalone-1.7.0-M1.jar" org.junit.runner.JUnitCore UnitTestExample`
 
-### Install Git on your system
+Mac/Linux:
+`javac -classpath ".:junit-platform-console-standalone-1.7.0-M1.jar" UnitTestExample.java`
+`java -classpath ".:junit-platform-console-standalone-1.7.0-M1.jar" org.junit.runner.JUnitCore UnitTestExample`
 
-You may already have `git` command installed on your system. But if not, you need to do so now. Here's how you do it in various contexts:
-
-#### Mac
-
-On Mac, you will need to install the command line tools. To see if the command line tools are installed, Open a terminal a try to use `git` by simply type
-
-```
-git
-```
-
-If it is installed, you'll see a usage info appear. If it is not installed, you will be prompted to install the command line tools. Do so. It will take about 5-10 minutes, but then you'll have all sorts of good stuff installed, including `git`.
-
-
-#### Windows
-
-On windows, you can install git from this [link](https://git-scm.com/download/win), but perhaps a better option for you is to install the Windows Subsystem Linux (WSL), which provies a full ubuntu/linux subsystem, as if it is a virtual machine.
-
-This is a [great guide from Microsoft](https://docs.microsoft.com/en-us/windows/wsl/install-win10). Once you do so, open a WSL terminal and follow the linux guide above. 
-
-#### Linux/Ubuntu
-
-If you are running a linux/ubuntu system, you can simply type
+Your output should look something like:
 
 ```
-sudo apt install git
+JUnit version 4.13
+..E.Starting audit...[WARN] C:\Users\Dr_Kinga\Documents\CS2113_S23\cs2113-s23.github.io\wrkshts\UnitTestExample.java:7:25: Member name 'n' must match pattern '^[a-z][a-z0-9][a-zA-Z0-9]*$'. [MemberName]Audit done.
+E
+Time: 2.406
+There were 2 failures:
+1) test2(UnitTestExample)
+org.junit.ComparisonFailure: expected:<[M]oon> but was:<[m]oon>
+        at org.junit.Assert.assertEquals(Assert.java:117)
+        at org.junit.Assert.assertEquals(Assert.java:146)
+        at UnitTestExample.test2(UnitTestExample.java:22)
+2) test3(UnitTestExample)
+org.junit.ComparisonFailure: expected:<Starting audit...[]Audit done.> but was:<Starting audit...[[WARN] C:\Users\Dr_Kinga\Documents\CS2113_S23\cs2113-s23.github.io\wrkshts\UnitTestExample.java:7:25: Member name 'n' must match pattern '^[a-z][a-z0-9][a-zA-Z0-9]*$'. [MemberName]]Audit done.>
+        at org.junit.Assert.assertEquals(Assert.java:117)
+        at org.junit.Assert.assertEquals(Assert.java:146)
+        at UnitTestExample.test3(UnitTestExample.java:50)
+
+FAILURES!!!
+Tests run: 3,  Failures: 2
 ```
 
-For other linux distros, refer to your package manager, but the command will be similar for `yum` or `rpm`.
+## Getting tests to pass
 
-At this point you should also install some other packages that you may want for the class
+Next, modify your java file to 1) change the variable name `n` on line 7 to be something better so it passes the style checker; and 2) change the value of the variable `satellite` on line 9 so that it passes the test case. Looking at line 20 will show you what the expected value is for that second test case. Then, recompile and re-run your tests using the commands above.
 
-```
-sudo apt-get install gcc make manpages default-jdk valgrind libreadline-dev
-```
-
-
-### Extras for git
-
-Setup an ssh-key for your github account. This is a huge time saver and much more secure than using a password. Check out this [guide](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/connecting-to-github-with-ssh).
-
-You can also generate an access token, which you could (should!) use in place of a password when using git's https access. Check out this [guide](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token).
-
-
-
-## Part 1: Creating your first `git` repo and sharing it with the course staff
-
-In order to submit code this semester, you will need to create a repository for each assignment, place your code in there, and upload it. These items will be a part of every project's grading rubric. Let's try it out together for this assignment.
-
-### Notify us with your github username
-
-Please find the thread on Ed titled `git usernames` and make a post there, so the grader knows what your git account will be this semester.
-
-### Creating a new git repo
-
-There are many ways to do this, but we'll compromise between the github website and the command line. First, in your browser, log in to github.com with your account, click on the icon in the top right, select `Your Repositories`, and then press the green `New` button in the top right to create a new repo.
-
-Under `Repository name`, type `gitusername-lab0` but replace `gitusername` with your actual git username. Make sure you type it exactly as it is listed here, i.e. `-lab0` must appear after your username. 
-
-Next, select the toggle button below to be `Private`.
-
-Next, press the green `Create repository` button.
-
-The page will load the homepage of your repo. 
-
-
-## Part 2: Checking out your repo
-
-Once you have your new repo set up, click back on the `Code` tab, and copy the URL in the bar at looks similar to `https://github.com/kdobolyi/kdobolyi-lab0.git`
-
-In your terminal, navigate to a folder of your choosing, and type (replacing it with your own URL):
-`git clone https://github.com/kdobolyi/kdobolyi-lab0.git`
-
-This will make a local copy of the (empty) repo in your current directory in a folder called `kdobolyi-lab0` (in my case -- yours will be different).
-
-## Part 3: Adding code to your repo
-
-Next, copy and paste the following Java code into a file in your repo's folder, and call it `HelloWorld.java`:
+When all your tests pass, you should see something like:
 
 ```
-public class HelloWorld{
-   public static void main(String[] args){
-      System.out.println("Hello World!");
-   }
-}
+JUnit version 4.13
+...Starting audit...Audit done.
+
+Time: 0.918
+
+OK (3 tests)
 ```
 
-### Tagging a file to be added to your repo
-
-Even though `HelloWorld.java` is in your folder, it is not a part of your repo until you let the server know it exists, and push it to github. This is a three step process. First, we will formally flag this file to be added to the repo with:
-`git add HelloWorld.java`
-
-### Commiting your changes
-
-Next, we need to tell git that we're ready to commit to these changes. You can ask it to commit all recent changes with the following command, which also requires a human-readable message:
-`git commit -a -m "my first attempt"`
-
-The `-m` flag stands for the required message between quotes.
-
-### Pushing your changes
-
-All this is great, but it's only flagging this on your local copy of the files; none of this is on the github server yet. To get it there, you have to push your changes with the command:
-`git push`
-
-If everything goes through smoothly, you can refresh the website of your repo, and you'll see your `HelloWorld.java` file there. If not, find a TA to help you.
-
-## Part 4: Making a change
-
-Finally, we're going to update the file we just pushed to git. Change the string printed in `HelloWorld.java` to include your name. Then, go through the steps above to commit and push those changes (you don't need to `git add` the file to the repo, because it is already there -- only new files need to be added, and only once).
-
-Make sure that when you refresh the browser, you can see your changes there.
-
-## Part 5: Getting your logs
-
-You'll be submitting logs for your github repo as part of your grade. To get git to do this, type `git log`, which will display the activity on your project. Pipe the log into a text file with the follow command: `git log > log_file.txt`. Next, submit this logfile to BB for grading.
-
-# Troubleshooting
+Please reach out to a TA for help if you need it.
 
 
-* **Problem**: I can't login to git using the command line
-> If you are prompted to input a username and password within the command line (without being redirected online), then your password shall be the ID of you personal access token. First, create a classic access token, and check off all the permissions. Do not give anyone your token, since someone could then have full access to your GitHub. The tokens can be found and generated by clicking on your github profile photo at the top right and going to "Settings > Developer Settings > Personal access tokens > Tokens (classic) > Generate new token”.
+# Grading rubric and submission
 
-* **Problem**: I'm not able to add, commit, and then push on git
-> `add` allows you to specify which files you would like to bundle, ultimately to create a new ‘version’ of your codebase. `commit` takes all of the bundled files and officially defines your new ‘version’, but only locally. `push` takes all of your new versions and pushes them online. You may need to manually add file before committing and pushing. `git status` will allow you to see what files you have added and/or committed to your repo so far; it's very useful for debugging.
+Create a tar file with your code by running the following command in the terminal:
+`tar -cvf J0.tar UnitTestExample.java`
 
-* **Problem**: git isn't finding my repo
-> Make sure you change directory (using `cd`) to be inside the folder you created/cloned.
+Then, upload this tarfile to the submitserver, and make sure you see 100/100 displayed there.
 
-
-
-# Grading Rubric
-
-Submit your `log_file.txt` to BlackBoard under the "Lab 0" link when you are finished. Also make sure to post your username to Ed.
-
+ You will be graded on the following:
 
 |Item | Points |
-|github username has been posted to Ed | 10 |
-|based on the logfile, the initial commit of `HelloWorld.java` has a useful message | 45 |
-|based on the logfile, the second commit has a unique, useful message | 45 |
-| TOTAL | 100 |
+|unit tests pass (33 points each) | 100 |
 
