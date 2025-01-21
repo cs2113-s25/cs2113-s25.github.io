@@ -6,15 +6,13 @@ permalink: lab/2_unit_tests
 
 ## Setup
 
-Create a new repo using all the steps in Lab 0 called `yourgitusername-worksheet-J0`. Then, add the following file to it:
+Create a new repo using all the steps in Lab 0 called `yourgitusername-lab2`. Then, add the following files to it:
 
-Download the [UnitTestExample.java](https://cs2113-s23.github.io/labs/UnitTestExample.java)
+* Download the [UnitTestExample.java](https://cs2113-s23.github.io/labs/UnitTestExample.java)
+* Download the Junit jar file from the pinned post on Ed. Save it in the same directory as your java file (preserving the name `junit-platform-console-standalone-1.7.0-M1.jar`). This will allow you to run Junit tests through your terminal; there are also plugins for junit for text editors like VSCode if you want to google how to set that up.
+* Download the [CS1111_checks.xml](https://www2.seas.gwu.edu/~kinga/CS1111_S22/labs/CS1111_checks.xml) into the same directory.
 
-Download the Junit jar file from the pinned post on Ed. Save it in the same directory as your java file (preserving the name `junit-platform-console-standalone-1.7.0-M1.jar`). This will allow you to run Junit tests through your terminal; there are also plugins for junit for text editors like VSCode if you want to google how to set that up.
-
-Download the [CS1111_checks.xml](https://www2.seas.gwu.edu/~kinga/CS1111_S22/labs/CS1111_checks.xml) into the same directory.
-
-Download the [checkstyle-9.2.1-all.jar](https://github.com/checkstyle/checkstyle/releases/download/checkstyle-9.2.1/checkstyle-9.2.1-all.jar
+* Download the [checkstyle-9.2.1-all.jar](https://github.com/checkstyle/checkstyle/releases/download/checkstyle-9.2.1/checkstyle-9.2.1-all.jar
 ) into the same directory.
 
 ## Understanding unit tests
@@ -81,7 +79,7 @@ Please reach out to a TA for help if you need it.
 # Grading rubric and submission
 
 Create a tar file with your code by running the following command in the terminal:
-`tar -cvf J0.tar UnitTestExample.java`
+`tar -cvf lab2.tar UnitTestExample.java`
 
 Then, upload this tarfile to the submitserver, and make sure you see 100/100 displayed there.
 
