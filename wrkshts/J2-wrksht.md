@@ -4,9 +4,7 @@ permalink: /worksheet/j2
 showsolution: false
 ---
 
-# Worksheet: J0
-
-Worksheets are self-guided activities that reinforce lectures. They are due Thursdays the week they are assigned.
+# Worksheet: J2
 
 Please submit your answers to the questions as comments in a `J2.md` markdown file you'll be writing in this lab. To render your file, create a github repo and upload your file there -- it can be viewed in your web browser.
 
@@ -17,11 +15,7 @@ When you are done, submit your `J2.md` file to BB.
  You will be graded on the following:
 
 |Item | Points |
-|Answers are completed (for content)  | 100 |
-
-## Lab this week
-
-Review the instructions for Lab 1 before you arrive at your lab on Wednesday, so you can make the best use of your limited time there!
+|Answers are correct  | 100 |
 
 ## Questions
 

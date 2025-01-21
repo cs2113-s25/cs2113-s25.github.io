@@ -6,8 +6,6 @@ showsolution: false
 
 # Worksheet: J1
 
-Worksheets are self-guided activities that reinforce lectures. They are due Thursdays the week they are assigned.
-
 Please submit your answers to the questions as comments in a `J1.md` markdown file you'll be writing in this lab. To render your file, create a github repo and upload your file there -- it can be viewed in your web browser.
 
 # Grading rubric and submission
