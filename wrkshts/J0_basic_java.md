@@ -6,11 +6,11 @@ showsolution: false
 
 # Worksheet: J0
 
-Please submit your answers to the questions as comments in a `J0.md` markdown file you'll be writing in this lab. To render your file, create a github repo and upload your file there -- it can be viewed in your web browser.
+Please submit your answers to the questions as comments in a `J0.txt` file you'll be writing in this lecture. 
 
 # Grading rubric and submission
 
-When you are done, submit your `J0.md` file to BB.
+When you are done, submit your `J0.txt` file to BB.
 
  You will be graded on the following:
 
