@@ -126,11 +126,3 @@ What benefit does *mutation testing* offer over other testing methods discussed 
 Mutation testing is automated, in the sense that it solves the *oracle problem*: there is no need to define expected outputs, because we assume the current functionality of the program under test is correct (and therefore the correct output). Our goal is not to test the correctness of this code directly, but to test how complete/effective our test suite is. The assumption is that real bugs will be found in the code if we generate a robust enough test suite.
 
 
-
-### q
-
-Finish the in-class exercise for finding the fault in the `checkCode` method. 
-
-#### s
-Solution omitted.
-
