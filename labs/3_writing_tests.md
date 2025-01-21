@@ -12,7 +12,7 @@ You will be graded on whether or not your unit tests find the bug(s) in an imple
 
 Create a file called `Lab3.java` that contains a class by the same name in the file.
 
-Next, add the Junit imports to the top of this file, and make sure you have this [junit jar file](./) in your current directory.
+Next, add the Junit imports to the top of this file, and make sure you have this [junit jar file](./junit-platform-console-standalone-1.7.0-M1.jar) in your current directory.
 ```java
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
