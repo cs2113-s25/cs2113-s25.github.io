@@ -1,6 +1,6 @@
 ---
 layout: worksheet
-permalink: /worksheet/j0
+permalink: /worksheet/j0_basic_java
 showsolution: false
 ---
 
