@@ -362,13 +362,3 @@ Let's take a look at the [different flavors of Junit assertions](https://github.
 
 Besides different flavors of assertions, Junit allowd developers fine-grained control over what is tested, and how it is tested. We won't cover these topics in the lecture here, but you can get a sense of the range, flexibility, and granularity of these options through the [Junit4 wiki](https://github.com/junit-team/junit4/wiki).
 
-## Lab exercise: putting it all together
-
-Let's work in groups on an exercise that will ask you to generate test cases for a problem called `checkCode`, where we want to write test cases that a string passed to a method that is supposed to check if an item code (in some warehouse) is of a valid format.
-
-First, download the [tests.txt](./tests.txt) file to your machine; you will be writing your test cases into this file.
-Also download this [python file for testing your solutions](./tester.py) (you'll need to [install python](https://www.python.org/downloads/) if you don't have it already)
-
-Then, check out the [problem description](./assessment1_sample.html), and write your tests in the text file. When you're ready, have both files above in the same folder, and run the python testing script from the terminal with:
-`python tester.py`
-It will tell you whether or not you found the seeded bug inside the `checkCode` method. Keep adding tests until you find the bug :-)
