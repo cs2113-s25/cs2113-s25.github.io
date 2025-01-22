@@ -31,15 +31,26 @@ A valid item code will have the following characteristics:
 * Finally, the code will end with an optional five digit number.
 
 
+## Writing unit tests
+
+Next, using the input domain partitioning skills you learned from lecture and the reading, write enough test cases for the `checkCode` method that find all the bugs. You'll be able to check how many bugs you found by running your code on the submitserver.
+
+You should continue to resubmit your code on the submitserver until you've found all the bugs.
+
+This is an individual assignment (like all assignments in this class) and you may not share test cases (or talk about this lab) with other students. If you need help, see us in office hours and/or post to Ed.
+
 # Grading rubric and submission
 
 Create a tar file with your code by running the following command in the terminal:
-`tar -cvf lab2.tar UnitTestExample.java`
+`tar -cvf lab3.tar Lab3.java`
 
-Then, upload this tarfile to the submitserver, and make sure you see 100/100 displayed there.
+Then, upload this tarfile to the submitserver to get graded.
+
+**You have up to 15 submissions** on the submitserver to try to find the bug -- make sure you are thorough and thoughtful each time you upload your tests there in what you've added. Also, don't wait until the last minute to finish this lab -- the submitserver will take a long time to grade your work (and may timeout) if there are too many people trying to submit at once.
 
  You will be graded on the following:
 
 |Item | Points |
-|unit tests pass (33 points each) | 100 |
+|finds all the bugs (10 points each) | 80 |
+|all your tests pass on a correct implementation | 20 |
 
