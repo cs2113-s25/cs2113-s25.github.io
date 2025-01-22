@@ -16,7 +16,7 @@ When you are done, submit your `J1.md` file as well as your `tests.txt` file to 
 
 |Item | Points |
 |markdown is correctly used as descrived above (5 pts each) | 30 |
-|Answers are completed (for content above) | 20 |
+|Answers are correct | 20 |
 |our tests.txt file that shows all the test cases you wrote in lab (25 pts for any tests, another 25 pts for finding the bug) | 50 |
 
 ## Questions
@@ -42,7 +42,6 @@ What are three benefits of Test Driven Development (TDD)? Provide your answer us
 ### q
 
 Given the example of requirements for generating a password:
-
 *    It must have at least one number.
 *    It must have at least one uppercase letter.
 *    It must have at least one lowercase letter.

@@ -15,11 +15,7 @@ When you are done, submit your `J0.txt` file to BB.
  You will be graded on the following:
 
 |Item | Points |
-|Answers are correct  | 100 |
-
-## Lab this week
-
-Review the instructions for Lab 1 before you arrive at your lab on Wednesday, so you can make the best use of your limited time there!
+|Answers are correct | 100 |
 
 ## Questions
 
@@ -28,7 +24,6 @@ Review the instructions for Lab 1 before you arrive at your lab on Wednesday, so
 Which of the following is an object and which is a basic type?
 
 ```java
-
 int a;
 double b;
 int c[] = {1, 2, 3};

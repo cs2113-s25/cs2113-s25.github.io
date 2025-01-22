@@ -84,7 +84,7 @@ Okay, now that we understand what's going on with that test case, it's time to f
 
 All you need to typically do to fix a bug like this is work your way backward from the last place that variable was touched until you can find the line number where the incorrect value was assigned. You technically don't even need to know what the rest of the code does; you don't even have to look at the whole file to start. It doesn't matter -- what matters is following the trail of where `possible_courses` got its values until you can see the incorrect data being placed into it.
 
-So, where was the last time we could have possibly updated `possible_courses`? It's last used on line 62 as an argument to a function `reformatForFrontEnd`. Copy the following print sttaement right before that line so we can see if `reformatForFrontEnd` modified the variable:
+So, where was the last time we could have possibly updated `possible_courses`? It's last used on line 62 as an argument to a function `reformatForFrontEnd`. Copy the following print statement right before that line so we can see if `reformatForFrontEnd` modified the variable:
 ```python
 print("DEBUG 1: possible_courses[elective_1] count: " + str(possible_courses["elective_1"].count("CSCI 2501#Ethical Issues in Computing")))
 ```
@@ -166,12 +166,11 @@ print("TEST2: " + str(possible_courses["elective_1"].count("CSCI 1111#Introducti
 We want the line above to print 0 when we run our fixed code. Does it? If not, go back and take a look at how you fixed your bug and see if you can modify that code so that it prints out 1 for our original test case and 0 for this one.
 
 
-
 # Requirements, submission, and grading
 
 ## Submission
 
-Tar up everything in the zip folder you downloaded with `tar -cvf extra_credit.tar *.*` and submit this to BB before the deadline in class. 
+Tar up everything in the zip folder you downloaded with `tar -cvf lab1.tar *.*` and submit this to BB before the deadline in class. 
 
 ## Grading
 
@@ -181,7 +180,7 @@ You should be running the lab on your own machine with your own code, even if yo
 
 If you are working on this assignment outside of lab, you may *NOT* consult other students: only refer to the TAs and Ed for help. 
 
-Also, we be careful **not to hardcode** the bug fix for this lab; your solution must work for any CSCI class that should/should not be a part of the electives, including future classes that are not currently captured in any of the files.
+Also, be careful **not to hardcode** the bug fix for this lab; your solution must work for any CSCI class that should/should not be a part of the electives, including future classes that are not currently captured in any of the files.
 
 |Item | Points |
 |submission tells a story of how the bug was discovered | 75 |
