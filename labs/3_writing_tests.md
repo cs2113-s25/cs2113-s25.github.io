@@ -37,11 +37,9 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class AmazonBackend{
-        
         public static boolean checkCode(String code){
-        return true; // this is just a temporary value to allow you to check that your code compiles.
+                return true; // this is just a temporary value to allow you to check that your code compiles.
     }
-
 }
 ```
 
@@ -49,7 +47,7 @@ Save the code above as `AmazonBackend.java` in the same directory as the rest of
 
 ## Writing unit tests
 
-Next, using the input domain partitioning skills you learned from lecture and the reading, write enough test cases for the `checkCode` method that find all the bugs. You'll be able to check how many bugs you found by running your code on the submitserver.
+Next, using the input domain partitioning skills you learned from lecture and the reading, write enough test cases for the `checkCode` method that find all the bugs. You'll be able to check how many bugs you found by running your code on the submitserver. Use the `assertEquals(x, y)` at least once in each of your test cases to call the `checkCode` method above with a specific input, and compare that to an expected boolean output.
 
 You should continue to resubmit your code on the submitserver until you've found all the bugs.
 
