@@ -22,7 +22,7 @@ title: Schedule
 | 11   | Apr 14: [J5 Worksheet](worksheet/j5) <br> Quiz 9: Client Server comprehension quiz <br> Lab 16: Writing test cases for threading  | Apr 16:  [Lab 17 -- GUI Enigma](lab/4)  | [J4 - GUIs and Events](j/4)|
 | 12   | Apr 21: [J8 Worksheet](worksheet/j8) <br> [J9 Worksheet](worksheet/j9) <br> Quiz 10: GUI comprehension quiz   | Apr 23: <br> Lab 18: Debugging for GUIs | [S2 - Software Engineering Development](j/software_engineering) <br> [S3 - Design Patterns](j/design) |
 | 13   | Apr 28: [J9 Worksheet](worksheet/j9) <br> Makeup quizzes (optional) <br>tentative extra credit (optional)| Apr 30: <i>no lab</i>|  [S4 - other programming languages and python](j/languages)  |
-|    | Final Exam week: the final exam day and time will be scheduled by the registrar -- TBD
+|    | Final Exam week: we do NOT have a final exam in this class
 
 
 
