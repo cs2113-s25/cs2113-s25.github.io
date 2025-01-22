@@ -1,9 +1,9 @@
 ---
 layout: default
-permalink: /lab/1
+permalink: /lab/6_enigma
 ---
 
-# Lab 1: Enigma 
+# Lab 6: Enigma 
 
 *View the videos for this lab on [youtube](https://youtu.be/6IrmHfD9aCA)*
 
