@@ -21,7 +21,7 @@ title: Schedule
 | 10    | Apr 7: [J7 Worksheet](worksheet/j7) <br> Quiz 8: Threading <br> Lab 14: UML diagram for Client Server simulator   | Apr 2: begin [Lab 15 -- Client Server simulator](project/2)    | [J6 - Java IO and Networking](j/6) |
 | 11   | Apr 14: [J5 Worksheet](worksheet/j5) <br> Quiz 9: Client Server comprehension quiz <br> Lab 16: Writing test cases for threading  | Apr 16:  [Lab 17 -- GUI Enigma](lab/4)  | [J4 - GUIs and Events](j/4)|
 | 12   | Apr 21: [J8 Worksheet](worksheet/j8) <br> [J9 Worksheet](worksheet/j9) <br> Quiz 10: GUI comprehension quiz   | Apr 23: <br> Lab 18: Debugging for GUIs | [S2 - Software Engineering Development](j/software_engineering) <br> [S3 - Design Patterns](j/design) |
-| 13   | Apr 28: [J9 Worksheet](worksheet/j9) <br> Makeup quizzes (optional) <br>tentative extra credit (optional)| Apr 30: <i>no lab</i>|  [S4 - other programming languages and python](j/languages)  |
+| 13   | Apr 28: [J9 Worksheet](worksheet/j9) <br> Makeup quizzes (optional) <br>tentative extra credit (optional) <br> TAing and rec letters| Apr 30: <i>no lab</i>|  [S4 - other programming languages and python](j/languages)  |
 |    | Final Exam week: we do NOT have a final exam in this class
 
 
