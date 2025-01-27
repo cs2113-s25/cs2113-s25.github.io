@@ -37,7 +37,7 @@ String s = "Hello World";
 
 ### q
 
-Two part question:
+Four part question:
 
 (A) What is a static method in Java?
 
@@ -51,10 +51,15 @@ public class Hello {
 }
 ```
 
+(C) What is a static field in java?
+
+(D) What is the relationship between static fields and static methods, versus non-static fields and non-static methods?
+
 #### s
 * Static methods are called directly, or statically, without the need of an object instance.
 * `main` methods need to be static because it needs to be called without instantiating an object of the class.
-
+* A static field is a single value/memory reference shared by all objects of that class. It exists before any constructor is ever called.
+* A static method can only access static fields of the class (and any locally-defined variables). Regular, non-static methods can access both static and non-static fields (and methods).
 
 ### q
 
@@ -110,6 +115,13 @@ public static void main(final String args[]) {
 The program does not change the season, because the original season variable, which is a pointer to
 `Winter` is reassigned to a new string, `Spring`, inside the method. That breaks the link with the original season in `main`.
 
+
+### q
+What is the `this` keyword in Java?
+
+#### s
+The `this` keyword stores the memory address of the current object being used with a constructor/method. It is available inside the method as a variable, typically to refer to the object's fields and disambiguate them from local variables with the same name.
+
 ### q
 
 What is the output of the main method below? Please explain.
@@ -135,13 +147,6 @@ public static void main(final String args[]) {
 
 #### s
 The output of the main method is `X: 0.0 Y: 0.0`. The reason is in the `Point` class, the constructor does not pass the parameters `x` and `y` onto `x` and `y` of the `Point` class.
-
-### q
-
-What principle of OOP does the `private` declaration for variable and functions achieve? Explain.
-
-#### s
-The principle of Information Hiding is achieved by `private` declaration of variable and functions. The reason is `private` variable and functions cannot be accessed by other objects outside the class.
 
 ### q
 
