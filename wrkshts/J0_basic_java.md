@@ -21,7 +21,7 @@ When you are done, submit your `J0.txt` file to BB.
 
 ### q
 
-Which of the following is an object and which is a basic type?
+Which of the following is a reference type and which is a primitive type?
 
 ```java
 int a;
