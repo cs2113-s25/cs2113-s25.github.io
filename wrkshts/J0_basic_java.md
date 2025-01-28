@@ -1,7 +1,7 @@
 ---
 layout: worksheet
 permalink: /worksheet/j0_basic_java
-showsolution: false
+showsolution: true
 ---
 
 # Worksheet: J0
