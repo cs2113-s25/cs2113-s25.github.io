@@ -21,6 +21,19 @@ When you are done, submit your `J2.md` file to BB.
 
 ### q
 
+How are `private`, `public`, and `protected` visibility modifiers handled when fields/methods with these different visibilities are inherited from a parent class?
+
+From a grandparent class?
+
+How do classes outside the class inheritance hierarchy see (or not see) fields/methods with these different modifiers?
+
+#### s
+
+Any class anywhere can see `public` fields/methods. Any child classes in the inheritance hierarchy can see anything `protected`, but other classes outside the hierarchy cannot see these items. Only the class itself can see anything `private`.
+
+
+### q
+
 For the below questions, when the class `Point` is referenced, we are talking about the below class, which you can assume is fully implemented and working as described:
 
 ```java
