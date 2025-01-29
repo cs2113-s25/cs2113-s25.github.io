@@ -10,12 +10,12 @@ In this short lab, you will design your code for the upcoming Enigma lab using a
 
 Open the instructions for the [Engima lab](lab/6_enigma) in another tab and read over them, taking note of:
 
-* The four classes you need to write and/or work with
+* The three classes you need to write and/or work with
 * The contents of each (skeleton) class
 
 ## Drawing a UML diagram
 
-Using the notes from class, draw a UML diagram for all the four classes associated with the Engima lab. You'll be graded using the rubric below.
+Using the notes from class, draw a UML diagram for all the three classes associated with the Engima lab. You'll be graded using the rubric below.
 
 # Grading rubric and submission
 
