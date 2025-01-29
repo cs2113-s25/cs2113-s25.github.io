@@ -70,6 +70,31 @@ Although the question did not ask for this, more tests could/should be generated
 
 ### q
 
+Imagine you are writing test cases to find the minimum of a list.
+
+What are the input domain paritions for this exercise? Provide your answer using an unordered nested lists in markdown.
+
+#### s
+ ([1], 1) // lists of size 1
+ ([1,2], 1) // lists of size 2, min at start
+ ([2,1], 1) // lists if size 2, min at end
+ ([1,1], 1) // <--- added another one note above, realizing there could be more than one minimum
+ ([1,2,3,4], 1) // lists of size 3+, min at start
+ ([4,2,3,1], 1) // lists of size 3+, min at end
+ ([3,2,1,4], 1) // lists of size 3+, min in middle
+ ([1,2,3], 1) // smallest edge case of lists of size 3+, min at start
+ ([2,3,1], 1) // smallest edge case of lists of size 3+, min at end
+ ([2,1,4], 1) // smallest lists of size 3+, min in middle
+ ([1,3,4,.....], 1) // whatever the longest list is of size 3+, min at start
+ ([5,3,4,....7], 1) // whatever the longest list is of size 3+, min at end
+ ([2,3,4,..1..], 1) // whatever the longest list is of size 3+, min in middle
+ //Copy all tests above, and set 1 to be INTEGER.MIN
+ ([INTEGER.MAX], INTEGER.MAX)
+ //Copy all tests above, and set 1 to be -1
+ //Copy all tests above, and set 1 to be 0
+
+### q
+
 Complete the truth table below to show what inputs we need to achieve *active clause coverage* for the following conditional:
 
 ```java
