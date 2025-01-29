@@ -9,7 +9,7 @@ permalink: lab/2_unit_tests
 Create a new repo using all the steps in Lab 0 called `yourgitusername-lab2`. Then, add the following files to it:
 
 * Download the [UnitTestExample.java](https://cs2113-s23.github.io/labs/UnitTestExample.java)
-* Download [junit-platform-console-standalone-1.7.0-M1.jar](./labs/junit-platform-console-standalone-1.7.0-M1.jar), saving it in the same directory as you other file. This will allow you to run Junit tests through your terminal; there are also plugins for junit for text editors like VSCode if you want to google how to set that up.
+* Download [junit-platform-console-standalone-1.7.0-M1.jar](https://cs2113-s25.github.io/labs/junit-platform-console-standalone-1.7.0-M1.jar), saving it in the same directory as you other file. This will allow you to run Junit tests through your terminal; there are also plugins for junit for text editors like VSCode if you want to google how to set that up.
 * Download the [CS1111_checks.xml](https://www2.seas.gwu.edu/~kinga/CS1111_S22/labs/CS1111_checks.xml) into the same directory by right-mouse clicking and saving the file with the same name.
 * Download the [checkstyle-9.2.1-all.jar](https://github.com/checkstyle/checkstyle/releases/download/checkstyle-9.2.1/checkstyle-9.2.1-all.jar
 ) into the same directory, preserving its filename as well.
