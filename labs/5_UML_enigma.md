@@ -29,4 +29,5 @@ You will be graded on the following:
 |all fields appear in the diagram, with proper visibility types | 16 (4 pts each) |
 |correct relationship between classes drawn (including arrow direction) | 10 (5 pts each) |
 |any extra fields, methods, or relationships | minus 5 pts each |
+|TOTAL | 100 |
 
