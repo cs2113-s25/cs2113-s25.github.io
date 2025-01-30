@@ -3,7 +3,7 @@ layout: default
 permalink: /lab/7_debugging_poly
 ---
 
-# Lab 6: Enigma 
+# Lab 8: Debugging with Polymorphism 
 
 In this lab, you'll get some additional practice debugging non-trivial programs.
 
