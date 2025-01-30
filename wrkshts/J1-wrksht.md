@@ -41,6 +41,28 @@ What are three benefits of Test Driven Development (TDD)? Provide your answer us
 
 ### q
 
+Using input domain partitioning, write a test set that checks that a method that gives discounts to children and seniors of 50% and 25% respectively works as intended. The input to this methos is a single variable, `age`, and the output is the discount.
+
+#### s
+(-2, invalid)
+(122, invalid)
+(9, 50)
+(45, 0)
+(80, 25)
+(-1, invalid)
+(121, invalid)
+(0, 50)
+(17, 50)
+(18, 0)
+(64, 0)
+(65, 25)
+(120, 25)
+(Integer.MIN_VALUE, invalid)
+(Integer.MAX_VALUE, invalid)
+
+
+### q
+
 Given the example of requirements for generating a password:
 *    It must have at least one number.
 *    It must have at least one uppercase letter.
