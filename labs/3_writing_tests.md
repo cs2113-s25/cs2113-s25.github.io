@@ -12,7 +12,7 @@ You will be graded on whether or not your unit tests find the bug(s) in an imple
 
 Create a file called `Lab3.java` that contains a class by the same name in the file.
 
-Next, add the Junit imports to the top of this file, and make sure you have the [Junit jarfile](.labs/junit-platform-console-standalone-1.7.0-M1.jar) in the current directory.
+Next, add the Junit imports to the top of this file, and make sure you have the [Junit jarfile](https://cs2113-s25.github.io/labs/junit-platform-console-standalone-1.7.0-M1.jar) in the current directory.
 ```java
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
@@ -58,12 +58,12 @@ This is an individual assignment (like all assignments in this class) and you ma
 To run your unit tests – remember, you need to have the junit jar file in the same directory – compile and run your code with the following commands on the terminal (depending on your OS):
 
 #### Windows
-`javac -classpath ".;junit-platform-console-standalone-1.7.0-M1.jar" *.java
-java -classpath ".;junit-platform-console-standalone-1.7.0-M1.jar" org.junit.runner.JUnitCore Lab3`
+`javac -classpath ".;junit-platform-console-standalone-1.7.0-M1.jar" *.java`
+`java -classpath ".;junit-platform-console-standalone-1.7.0-M1.jar" org.junit.runner.JUnitCore Lab3`
 
 #### Mac/Linux
-`javac -classpath ".:junit-platform-console-standalone-1.7.0-M1.jar" *.java
-java -classpath ".:junit-platform-console-standalone-1.7.0-M1.jar" org.junit.runner.JUnitCore Lab3`
+`javac -classpath ".:junit-platform-console-standalone-1.7.0-M1.jar" *.java`
+`java -classpath ".:junit-platform-console-standalone-1.7.0-M1.jar" org.junit.runner.JUnitCore Lab3`
 
 # Grading rubric and submission
 
