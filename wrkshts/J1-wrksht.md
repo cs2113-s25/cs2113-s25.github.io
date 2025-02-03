@@ -8,17 +8,6 @@ showsolution: false
 
 Please submit your answers to the questions as comments in a `J1.md` markdown file you'll be writing in this lab. To render your file, create a github repo and upload your file there -- it can be viewed in your web browser.
 
-# Grading rubric and submission
-
-When you are done, submit your `J1.md` file as well as your `tests.txt` file to BB.
-
- You will be graded on the following:
-
-|Item | Points |
-|markdown is correctly used as descrived above (5 pts each) | 30 |
-|Answers are correct | 20 |
-|our tests.txt file that shows all the test cases you wrote in lab (25 pts for any tests, another 25 pts for finding the bug) | 50 |
-
 ## Questions
 
 
@@ -41,7 +30,7 @@ What are three benefits of Test Driven Development (TDD)? Provide your answer us
 
 ### q
 
-Using input domain partitioning, write a test set that checks that a method that gives discounts to children and seniors of 50% and 25% respectively works as intended. The input to this methos is a single variable, `age`, and the output is the discount.
+Using input domain partitioning, write a test set that checks that a method that gives discounts to children and seniors of 50% and 25% respectively works as intended. The input to this method is a single variable, `age`, and the output is the discount.
 
 #### s
 (-2, invalid)
@@ -172,3 +161,12 @@ What benefit does *mutation testing* offer over other testing methods discussed 
 Mutation testing is automated, in the sense that it solves the *oracle problem*: there is no need to define expected outputs, because we assume the current functionality of the program under test is correct (and therefore the correct output). Our goal is not to test the correctness of this code directly, but to test how complete/effective our test suite is. The assumption is that real bugs will be found in the code if we generate a robust enough test suite.
 
 
+# Grading rubric and submission
+
+When you are done, submit your `J1.md` file to BB.
+
+ You will be graded on the following:
+
+|Item | Points |
+|markdown is correctly used as descrived above (5 pts each) | 30 |
+|Answers are correct | 70 |
