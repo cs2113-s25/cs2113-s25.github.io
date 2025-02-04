@@ -2,6 +2,11 @@
 layout: toc
 permalink: lab/5_UML_enigma
 ---
+
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+</script>
+
 # Lab 5: Creating a UML diagram for the Enigma lab
 
 In this short lab, you will design your code for the upcoming Enigma lab using a UML diagram.
