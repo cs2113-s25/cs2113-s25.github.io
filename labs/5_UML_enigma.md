@@ -19,56 +19,6 @@ Open the instructions for the [Engima lab](lab/6_enigma) in another tab and read
 
 Using the notes from class, draw a UML diagram for all the three classes associated with the Engima lab **using markdown**, described here. You'll be graded using the rubric below.
 
-### Sketching a UML diagram by hand
-
-First, draw a UML diagram by hand, and save it as UML.pdf
-
-### Using Markdown to create UML
-
-Take a look at this simple UML diagram:
-
- <pre class="mermaid">
-classDiagram
-    class Fish {
-        - int age
-        # String planet = "Earth"
-        + Fish(int age)
-        + String toString()
-    }
-
-    class Shark {
-        - String food
-        + Shark()
-        + boolean eats()
-    }
-
-    Fish <|-- Shark
-</pre>
-
-    <script type="module">
-      import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
-    </script>
-
-You can use the markdown code below to generate the UML diagram above. Modify this markdown code to generate a UML diagram for the Enigma lab.
-
-```
-classDiagram
-    class Fish {
-        - int age
-        # String planet = "Earth"
-        + Fish(int age)
-        + String toString()
-    }
-
-    class Shark {
-        - String food
-        + Shark()
-        + boolean eats()
-    }
-
-    Fish <|-- Shark
-
-```
 
 # Grading rubric and submission
 
