@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /lab/7_debugging_poly
+permalink: /lab/8_debugging_poly
 ---
 
 # Lab 8: Debugging with Polymorphism 
