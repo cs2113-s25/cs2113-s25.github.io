@@ -3,9 +3,6 @@ layout: toc
 permalink: lab/5_UML_enigma
 ---
 
-<script type="module">
-  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
-</script>
 
 # Lab 5: Creating a UML diagram for the Enigma lab
 
@@ -30,7 +27,7 @@ First, draw a UML diagram by hand, and save it as UML.pdf
 
 Take a look at this simple UML diagram:
 
-```mermaid
+ <pre class="mermaid">
 classDiagram
     class Fish {
         - int age
@@ -46,8 +43,11 @@ classDiagram
     }
 
     Fish <|-- Shark
+</pre>
 
-```
+    <script type="module">
+      import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+    </script>
 
 You can use the markdown code below to generate the UML diagram above. Modify this markdown code to generate a UML diagram for the Enigma lab.
 
