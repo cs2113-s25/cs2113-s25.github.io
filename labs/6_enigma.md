@@ -5,8 +5,6 @@ permalink: /lab/6_enigma
 
 # Lab 6: Enigma 
 
-*View the videos for this lab on [youtube](https://youtu.be/6IrmHfD9aCA)*
-
 ## Setup
 
 Download the [Comms.java](./Comms.java) file.
@@ -19,7 +17,7 @@ Download the [Lab1_Tester.java](./Lab1_Tester.java) file.
 
 ### Github setup
 
-Use git, as discussed in Lab 0, to create a repo called `gitusername-lab1`, add these four files to it, and commit and push the changes to github. You will not be able to submit other java files, so please stick to just the ones above.
+Use git, as discussed in Lab 0, to create a repo called `gitusername-lab6`, add these four files to it, and commit and push the changes to github. You will not be able to submit other java files, so please stick to just the ones above.
 
 You will need to use this repo effectively to receive full credit on this assignment, even though you will be submitting it on the submitserver. See the grading rubric below.
 
@@ -145,9 +143,9 @@ In your github repo, type the following command to pipe your log to a text file:
 `git log > log_file.txt`
 
 Next, type the following command to compress your files into the required submission format:
-`tar -cvf lab1.tar Comms.java Enigma.java Rotor.java log_file.txt`
+`tar -cvf lab6.tar Comms.java Enigma.java Rotor.java log_file.txt`
 
-Submit your code, as `lab1.tar` on the submitserver. 
+Submit your code, as `lab6.tar` on the submitserver. 
 
 You will be graded on the following:
 
