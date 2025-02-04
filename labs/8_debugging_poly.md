@@ -7,9 +7,9 @@ permalink: /lab/8_debugging_poly
 
 In this lab, you'll get some additional practice debugging non-trivial programs.
 
-We have included an anonymous student's solution to a programming project from a previous semester. It's similar to your DotChaser assignment, and the instructions for students in the previous semester can be found [here](https://cs2113-s24.github.io/project/1), for reference.
+We have included an anonymous student's solution to a programming project from a previous semester. It's similar to your DotChaser assignment, and the instructions for students in a previous semester can be found [here](https://cs2113-s24.github.io/project/1), for reference.
 
-You can download the code as a zip file [here](./debugging_1.zip). Unzip it into its own folder.
+You can download the code as a zip file [here](https://cs2113-f24.github.io/wrkshts/debugging_1.zip). Unzip it into its own folder.
 
 This codebase originally passed all the included unit tests, but I have seeded it with a fault that causes it to fail one unit test. Your goal is to **use debug print statements to find this fault**, and then fix it, working backwards from what is mismatched in the unit test. Note that this is a moderately difficult problem, and you should spend some time first understanding what went wrong in the unit tests, before trying to fix the code.
 
@@ -59,8 +59,8 @@ Students must be present for the full lab session, and spend that time completin
 ## Submission
 
 Create a tar file from the folder you are working in by running the following command in the terminal:
-`tar -cvf lab7.tar *.*`
+`tar -cvf lab8.tar *.*`
 
-This will put every file in that folder into a tarfile named `lab7.tar`
+This will put every file in that folder into a tarfile named `lab8.tar`
 
 Then, upload this tarfile to BB.
