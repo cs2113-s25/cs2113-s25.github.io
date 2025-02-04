@@ -80,9 +80,13 @@ Then, upload this tarfile to the submitserver to get graded.
 
 **Make sure you look at the autograder output** to figure out what went wrong with your submission. Post to Ed if you get stuck.
 
+In order to earn up to 100 points, **you must first earn the 20 points for having your test suite pass all your tests at home**. Then, you will be eligible to earn up to 80 more points on the submitserver. 
+
+**If your tests are not all passing at home, the score on the submitserver will be invalid**, as this also appears to the server like you're finding bugs, since tests are mismatched with expected values. In such cases we will be ignoring the submitserver scores. Please make sure your test suite passes on all your tests at home before submitting to the submitserver.
+
  You will be graded on the following:
 
 |Item | Points |
-|finds all the bugs (10 points each) | 80 |
+|finds all the bugs (10 points each)  | 80 |
 |all your tests pass on a correct implementation | 20 |
 
