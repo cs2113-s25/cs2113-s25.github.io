@@ -3,15 +3,15 @@ layout: default
 permalink: /lab/10_wordcount
 ---
 
-# Lab 3: Wordcount
+# Lab 10: Wordcount
 
 ## Setup
 
-Download the [Lab3_Tester.java](./Lab3_Tester.java) file.
+Download the [Lab10_Tester.java](./Lab10_Tester.java) file.
 
 ### Github setup
 
-Use git, as discussed in Lab 0, to create a repo called `gitusername-lab3`, add the file above to it, and commit and push the changes to github. 
+Use git, as discussed in Lab 0, to create a repo called `gitusername-lab10`, add the file above to it, and commit and push the changes to github. 
 
 You will also need to create `WordCounter.java`, `EmptyFileException.java`, `InvalidStopwordException.java`, and `TooSmallText.java` files and add them to your repo for submission.
 
@@ -138,11 +138,11 @@ In your github repo, type the following command to pipe your log to a text file:
 `git log > log_file.txt`
 
 Next, type the following command to compress your files into the required submission format:
-`tar -cvf lab3.tar WordCounter.java TooSmallText.java InvalidStopwordException.java EmptyFileException.java log_file.txt`
+`tar -cvf lab10.tar WordCounter.java TooSmallText.java InvalidStopwordException.java EmptyFileException.java log_file.txt`
 
-Submit your code, as `lab3.tar` on the submitserver. 
+Submit your code, as `lab10.tar` on the submitserver. 
 
-Use git, as discussed in lab zero, to submit your work in a repo called `gitusername-lab3`. You will be graded on the following:
+Use git, as discussed in lab zero, to submit your work in a repo called `gitusername-lab10`. You will be graded on the following:
 
 |Item | Points |
 |your git logs show comments that helpfully and meaningfully describe what updates you were committing | 2 |
