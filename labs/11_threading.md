@@ -41,6 +41,8 @@ Type the following command to compress your files into the required submission f
 
 Submit your code, as `lab11.tar` on the submitserver. 
 
+Note: your tests cases must all pass at home in order to be eligible to earn points for finding bugs, similar to Lab3. You must also have meaningfully/usefully changed the test template provided with this lab in order to earn the 50 points below for passing all tests on a correct implementation.
+
 
 |Item | Points |
 |Your test suite passes all tests on a correct implementation of `Lab11_Thread` | 50 |
