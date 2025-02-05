@@ -32,7 +32,7 @@ To run your unit tests -- remember, you need to have the junit jar file in the s
 `javac -classpath ".:junit-platform-console-standalone-1.7.0-M1.jar" *.java`
 `java -classpath ".:junit-platform-console-standalone-1.7.0-M1.jar" org.junit.runner.JUnitCore Lab11_Tests`
 
-All your tests should pass at home before submitti
+All your tests should pass at home before submitting to the submitserver.
 
 # Grading rubric and submission
 
