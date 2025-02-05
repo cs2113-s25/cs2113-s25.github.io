@@ -25,7 +25,7 @@ You will need to use this repo effectively to receive full credit on this assign
 
 The Enigma machine was used by the Germans in WWII to send encoded messages. At the time, it was a breakthrough in cryptography, and was essentially an extremely advanced substitution cipher. The Enigma machine is also famous for not just being a very advanced cipher, but also because it was broken by none other than Alan Turing, whom many consider the founder of computer science.
 
-In this lab, we will model a simplified version of the Enigma machine. If you're interested in learning more, [Prof. Gavin Taylor](https://www.usna.edu/Users/cs/taylor/) (USNA) has a comprehensive [write up on the topic](https://www.usna.edu/Users/cs/nchamber/courses/ic211/s19/lab/l04/realenigma.html). (More details and an image are found at the end of this lab.)
+In this lab, we will model a simplified version of the Enigma machine. If you're interested in learning more, [Prof. Gavin Taylor](https://www.usna.edu/Users/cs/taylor/) (USNA) has a comprehensive [write up on the topic](https://www.usna.edu/Users/cs/nchamber/courses/ic211/s19/lab/l04/realenigma.html). (More details and an image are found at the end of this lab.) You can also view an [interactive demo](https://www.101computing.net/enigma-machine-emulator/) of the Enigma machine (thanks Manaaf!).
 
 ### What you need to know for this lab
 
