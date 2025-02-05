@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class Lab11_Thread extends Thread {
     private static ArrayList<String> data = new ArrayList<String>();
     private String name;
@@ -10,12 +12,25 @@ public class Lab11_Thread extends Thread {
 
     public void run() {
       for(int i = 0; i < runs; i++){
-        this.sleep(10);
-        data.add( name + " " + i);
+        try{
+          Thread.sleep(50);
+        } catch (Exception e){
+            e.printStackTrace();
+        }
+        this.addItem( name + " " + i);
       }
     }
 
-    public ArrayList getData(){
+    public synchronized void addItem(String s){
+      System.out.println(s);
+      data.add(s);
+    }
+
+    public ArrayList<String> getData(){
       return data;
+    }
+
+    public void setData(ArrayList<String> data){
+      this.data = data;
     }
 }
