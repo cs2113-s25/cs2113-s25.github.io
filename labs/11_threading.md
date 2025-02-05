@@ -3,7 +3,7 @@ layout: default
 permalink: /lab/11_threading
 ---
 
-# Lab 11: Threading debugging exercises
+# Lab 11: Writing test cases for threads
 
 ## Setup
 
