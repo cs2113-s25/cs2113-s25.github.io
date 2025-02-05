@@ -44,7 +44,7 @@ Next, read and complete the tutorial at the following link: [https://git-scm.com
 # Grading rubric and submission
 
 Type the following command to generate a logfile in your repo, which you will submit to BB:
-`git log --decorate --graph --all`
+`git log --decorate --graph --all >logfile.txt`
 
 
 |Item | Points |
