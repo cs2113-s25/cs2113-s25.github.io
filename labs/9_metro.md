@@ -9,11 +9,11 @@ part 1: draw your own diagram of the metro map and submit it
 
 ## Setup
 
-Download the [MetroSimulator.java](./Project1/MetroSimulator.java) file.
+Download the [MetroSimulator.java](./MetroSimulator.java) file.
 
-Download the [junit-platform-console-standalone-1.7.0-M1.jar](./Project1/junit-platform-console-standalone-1.7.0-M1.jar) file.
+Download the [junit-platform-console-standalone-1.7.0-M1.jar](./junit-platform-console-standalone-1.7.0-M1.jar) file.
 
-Download the [Project1_Tester.java](./Project1/Project1_Tester.java) file.
+Download the [Lab9_Tester.java](./Lab9_Tester.java) file.
 
 ### Github setup
 

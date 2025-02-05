@@ -15,7 +15,7 @@ title: Schedule
 | 4    | Feb 24: [J3 Worksheet](worksheet/j3) <br> Quiz 4: Enigma lab code comprehension <br> begin [Lab 7 -- Dot Chaser](lab/7_dot_chaser) | Feb 26:  [Lab 8: Debugging for polymorphism](lab/8_debugging_poly) | [J2 - Polymorphism](j/2) |
 | 6    | Mar 3:   [J4 Worksheet](worksheet/j4) <br> live coding exam review <br> begin [Lab 9 -- DC Metro](lab/9_metro) | Mar 5:  Quiz 5: J2 notes and DotChaser lab code comprehension| [J3 - Interfaces and Generics](j/3)  |     |
 |    | Mar 10: <i>no class</i>          | March 12: <i>no lab</i>   | |
-| 7    | Mar 17: Live coding exam (60 minutes) [sample live coding Exam1_Tester.java](./j-units/Exam1_Tester.java) [sample live coding Zoo.java](./j-units/Zoo.java)  | Mar 19: Quiz 6: J3 notes<br>continue Lab 10   | none|        
+| 7    | Mar 17: Live coding exam (60 minutes) [sample live coding Exam1_Tester.java](./j-units/Exam1_Tester.java) [sample live coding Zoo.java](./j-units/Zoo.java)  | Mar 19: Quiz 6: J3 notes<br>continue Lab 9   | none|        
 | 8    | Mar 24: Quiz 7: Metro Simulator comprehension quiz  | Mar 26: [Lab 10 -- Wordcount](lab/3)  |       [Exceptions and I/O](j/exceptions)    |           
 | 9    | Mar 31:  [J6 Worksheet](worksheet/j6) <br> Quiz 8: WordCount comprehension quiz <br> Lab 11: Threading debugging exercises | Apr 2:   Lab 12: github advanced topics  | [J5 - Threading and Concurrency](j/5) |           
 | 10    | Apr 7: [J7 Worksheet](worksheet/j7) <br> Quiz 9: Threading <br> Lab 13: UML diagram for Client Server simulator   | Apr 2: begin [Lab 14 -- Client Server simulator](project/2)    | [J6 - Java IO and Networking](j/6) |
