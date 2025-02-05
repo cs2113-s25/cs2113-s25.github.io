@@ -16,7 +16,7 @@ title: Schedule
 | 6    | Mar 3:   [J4 Worksheet](worksheet/j4) <br> live coding exam review <br> begin [Lab 9 -- DC Metro](lab/9_metro) | Mar 5:  Quiz 5: J2 notes and DotChaser lab code comprehension| [J3 - Interfaces and Generics](j/3)  |     |
 |    | Mar 10: <i>no class</i>          | March 12: <i>no lab</i>   | |
 | 7    | Mar 17: Live coding exam (60 minutes) [sample live coding Exam1_Tester.java](./j-units/Exam1_Tester.java) [sample live coding Zoo.java](./j-units/Zoo.java)  | Mar 19: Quiz 6: J3 notes<br>continue Lab 9   | none|        
-| 8    | Mar 24: Quiz 7: Metro Simulator comprehension quiz  | Mar 26: [Lab 10 -- Wordcount](lab/3)  |       [Exceptions and I/O](j/exceptions)    |           
+| 8    | Mar 24: Quiz 7: Metro Simulator comprehension quiz  | Mar 26: [Lab 10 -- Wordcount](lab/10_wordcount)  |       [Exceptions and I/O](j/exceptions)    |           
 | 9    | Mar 31:  [J6 Worksheet](worksheet/j6) <br> Quiz 8: WordCount comprehension quiz <br> Lab 11: Threading debugging exercises | Apr 2:   Lab 12: github advanced topics  | [J5 - Threading and Concurrency](j/5) |           
 | 10    | Apr 7: [J7 Worksheet](worksheet/j7) <br> Quiz 9: Threading <br> Lab 13: UML diagram for Client Server simulator   | Apr 2: begin [Lab 14 -- Client Server simulator](project/2)    | [J6 - Java IO and Networking](j/6) |
 | 11   | Apr 14: [J5 Worksheet](worksheet/j5) <br> Quiz 10: Client Server comprehension quiz <br> Lab 15: Writing test cases for threading  | Apr 16:  [Lab 16 -- GUI Enigma](lab/4)  | [J4 - GUIs and Events](j/4)|
