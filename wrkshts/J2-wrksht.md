@@ -21,7 +21,7 @@ When you are done, submit your `J2.md` file to BB.
 
 ### q
 
-How are `private`, `public`, and `protected` visibility modifiers handled when fields/methods with these different visibilities are inherited from a parent class?
+How are `private` and `public` visibility modifiers handled when fields/methods with these different visibilities are inherited from a parent class?
 
 From a grandparent class?
 
@@ -266,5 +266,13 @@ Include your UML diagram and explanation below in this markdown file.
 The intern should have Employee as its parent class, with an additional `Date` field called `employmentExpiration`.
 
 Additional type left as an exercise to the reader.
+
+### q
+
+Give an example of a case where it would make sense to have a `public static` field.
+
+#### s
+
+Something like a mathematical constant, such as pi, could be declared as such and then called on something like the math class: `Math.pi` without the need to create an object. (In this instance we would also probably want to declare the field `final`, which means its value cannot be modified after it is initialized.)
 
 
