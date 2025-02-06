@@ -16,11 +16,11 @@ You should create at least the two files below:
 * `Client.java`: the client code used to interact with a server.
 * `Server.java`: the server code to receive and process requests from clients.
 
-Download the [Project2_Tester.java](./Project2_Tester.java) file.
+Download the [Lab14_Tester.java](./Lab14_Tester.java) file.
 
 ### Github setup
 
-Use git, as discussed in Lab 0, to create a repo called `gitusername-project2`, add these two files to it, and commit and push the changes to github. 
+Use git, as discussed in Lab 0, to create a repo called `gitusername-lab14`, add these two files to it, and commit and push the changes to github. 
 
 ### Testing/Grading
 
@@ -28,7 +28,7 @@ There are test cases to check most of your client and server functionality. You 
 
 ## Client/Server Protocol
 
-So that everyone's GWack client can interact with each other and the public channels, we must define a standard protocol. 
+So that everyone's client can interact with each other and the public channels, we must define a standard protocol. 
 
 #### Initial Handshake
 
@@ -68,15 +68,15 @@ To run your unit tests -- remember, you need to have the junit jar file in the s
 
 # Grading rubric and submission
 
-Use git, as discussed in lab zero, to submit your work in a repo called `gitusername-project2`. You will be graded on the following:
+Use git, as discussed in lab zero, to submit your work in a repo called `gitusername-lab14`. You will be graded on the following:
 
 In your github repo, type the following command to pipe your log to a text file:
 `git log > log_file.txt`
 
 Next, type the following command to compress your files into the required submission format:
-`tar -cvf project2.tar Client.java Server.java log_file.txt`
+`tar -cvf lab14.tar Client.java Server.java log_file.txt`
 
-Submit your code, as `project2.tar` on the submitserver. 
+Submit your code, as `lab14.tar` on the submitserver. 
 
 
 |Item | Points |
