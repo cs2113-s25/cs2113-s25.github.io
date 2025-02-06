@@ -17,7 +17,7 @@ Open the instructions for the [Engima lab](lab/6_enigma) in another tab and read
 
 ## Drawing a UML diagram
 
-Using the notes from class, draw a UML diagram for all the three classes associated with the Engima lab **using markdown**, described here. You'll be graded using the rubric below.
+Using the notes from class, draw a UML diagram for all the three classes associated with the Engima lab. You'll be graded using the rubric below.
 
 
 # Grading rubric and submission
