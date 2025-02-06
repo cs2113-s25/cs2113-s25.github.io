@@ -19,7 +19,7 @@ title: Schedule
 | 8    | Mar 24: Quiz 7: Metro Simulator comprehension quiz  | Mar 26: [Lab 10 -- Wordcount](lab/10_wordcount)  |       [Exceptions and I/O](j/exceptions)    |           
 | 9    | Mar 31:  [J6 Worksheet](worksheet/j6) <br> Quiz 8: WordCount comprehension quiz <br> [Lab 11: Writing test cases for threads](lab/11_threading) | Apr 2:   [Lab 12: github advanced topics](lab/12_git_branching)  | [J5 - Threading and Concurrency](j/5) |           
 | 10    | Apr 7: [J7 Worksheet](worksheet/j7) <br> Quiz 9: Threading <br> [Lab 13: UML diagram for Client Server simulator](lab/13_UML_networks) | Apr 2: begin [Lab 14 -- Client Server simulator](lab/14_Client_server)    | [J6 - Java IO and Networking](j/6) |
-| 11   | Apr 14: [J5 Worksheet](worksheet/j5) <br> [Lab 15 -- GUI Enigma](lab/4)  | Apr 16: Quiz 10: Client Server comprehension quiz   | [J4 - GUIs and Events](j/4)|
+| 11   | Apr 14: [J5 Worksheet](worksheet/j5) <br> [Lab 15 -- GUI Enigma](lab/15_GUI)  | Apr 16: Quiz 10: Client Server comprehension quiz   | [J4 - GUIs and Events](j/4)|
 | 12   | Apr 21: [J8 Worksheet](worksheet/j8) <br> [J9 Worksheet](worksheet/j9) <br> Quiz 11: GUI comprehension quiz   | Apr 23: <br> Makeup quizzes (optional) | [S2 - Software Engineering Development](j/software_engineering) <br> [S3 - Design Patterns](j/design) |
 | 13   | Apr 28: [J9 Worksheet](worksheet/j9)  <br>tentative extra credit (optional) <br> TAing and rec letters| Apr 30: <i>no lab</i>|  [S4 - other programming languages and python](j/languages)  |
 |    | Final Exam week: we do NOT have a final exam in this class
