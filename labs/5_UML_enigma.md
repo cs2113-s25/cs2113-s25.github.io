@@ -10,7 +10,7 @@ In this short lab, you will design your code for the upcoming Enigma lab using a
 
 ## Setup
 
-Open the instructions for the [Engima lab](lab/6_enigma) in another tab and read over them, taking note of:
+Open the instructions for the [Engima lab](./6_enigma) in another tab and read over them, taking note of:
 
 * The three classes you need to write and/or work with
 * The contents of each (skeleton) class
