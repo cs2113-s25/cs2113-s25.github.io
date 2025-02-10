@@ -22,7 +22,7 @@ Using the notes from class, draw a UML diagram for all the three classes associa
 
 # Grading rubric and submission
 
-Upload a PDF called lab5.pdf to BB to get graded.
+Upload a PDF called `lab5.pdf` to BB to get graded.
 
 You will be graded on the following:
 
