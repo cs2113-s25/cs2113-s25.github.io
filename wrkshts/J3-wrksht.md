@@ -29,11 +29,11 @@ Attempt to answer these questions before running the code. This will improve you
 
 
 ### q
-Define **polymorphism** in the context of Java and provide one example where it is valuable? 
+Define **polymorphism** in the context of Java and provide one example where it is valuable. 
 
 #### s
 
-**Polymorphism** in Java allows multiple implementation of the same interface. One example will be the `Point` and `LabPoint` classes we implementated in class where we can have a `toString()` method in both `Point` and `LabPoint` that prints out different information.
+**Polymorphism** in Java allows multiple implementation of the same interface. One example will be the `Point` and `CustomPoint` classes we implementated in class where we can have a `toString()` method in both `Point` and `CustomPoint` that prints out different information.
 
 
 ### q
