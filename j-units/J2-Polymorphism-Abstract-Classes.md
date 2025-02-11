@@ -185,9 +185,6 @@ public class Ex3 {
 }
 ```
 
-
-<font color=red><h3>Let's take 20 minutes to go through questions 1-5 on the J3 worksheet.</h3></font>
-
 # Casting, Polymorphism and `instanceof`
 
 Polymorphism implies that you might have use a more general type (say an `Point`) to reference a more expressive type (say an `LabPoint`), like in the example above. For example, we know that in `LabPoint` that if we did the following
@@ -435,8 +432,6 @@ public class GWFaculty extends GWPerson {
 ```
 
 
-<font color=red><h3>Let's take 10 minutes to go through questions 6-7 on the J3 worksheet.</h3></font>
-
 ## Leveraging Abstract Classes
 
 Abstract classes provide a way to guarantee a subclass of the given class implements all the necessary functionality (i.e., the abstract methods). That means, you can program using the abstract class in a polymorphic way with the expectation that you'll have those methods available to you. 
@@ -524,8 +519,6 @@ Smith, John (G12245,jsmith) -- Class of 2021 -- jsmith@gwmail.gwu.edu
 Styles, Harry (G120345,styles) -- Class of 2026 -- styles@gwmail.gwu.edu
 
 ```
-
-<font color=red><h3>Let's take 25 minutes to go through the rest of the questions on the J3 worksheet.</h3></font>
 
 
 ---
