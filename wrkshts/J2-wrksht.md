@@ -251,7 +251,7 @@ public static void main(String args[]) {
 Does the code work at mark `A` or mark `B` or neither? Explain.
 
 #### s
-The code works at both marks. Each mark is adding a sponsor to two different objects, so there is not a conflict of overwriting the other. Since `F1` inherits from `Racecar`, it also has access to the `addSponsor` function even though it was not explicitly defined in the F1 class.
+The code does not work; `addSponsor` is a protected method, so this class outside of the inheritance hierarchy of `RaceCar`->`FormulaOne` would not have access to it since it's not public.
 
 
 ### q
