@@ -127,10 +127,10 @@ public class Lab7_Tester {
   public void test8() {
     System.out.println("TypeA and TypeB contain the minimum number of fields necessary (declare each on a new line), utilizing good OOP");
     System.out.println("the `Thing` class contains the appropriate fields, utilizing good OOP");
-    boolean found_row = checkInFile("Thing.java", "protected int row") || checkInFile("Thing.java", "protected int row");
-    boolean found_col = checkInFile("Thing.java", "protected int col") || checkInFile("Thing.java", "protected int col");
-    boolean found_dir = checkInFile("Thing.java", "protected int dir") || checkInFile("Thing.java", "protected int dir");
-    boolean found_lab = checkInFile("Thing.java", "protected char lab") || checkInFile("Thing.java", "protected char lab");
+    boolean found_row = checkInFile("Thing.java", "protected int row") || checkInFile("Thing.java", "private int row");
+    boolean found_col = checkInFile("Thing.java", "protected int col") || checkInFile("Thing.java", "private int col");
+    boolean found_dir = checkInFile("Thing.java", "protected int dir") || checkInFile("Thing.java", "private int dir");
+    boolean found_lab = checkInFile("Thing.java", "protected char lab") || checkInFile("Thing.java", "private char lab");
     assertEquals(true, found_row);
     assertEquals(true, found_col);
     assertEquals(true, found_dir);
