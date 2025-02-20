@@ -138,11 +138,11 @@ To run your unit tests -- remember, you need to have the junit jar file in the s
 
 ### Windows
 `javac -classpath ".;junit-platform-console-standalone-1.7.0-M1.jar" *.java`
-`java -classpath ".;junit-platform-console-standalone-1.7.0-M1.jar" org.junit.runner.JUnitCore Lab2_Tester`
+`java -classpath ".;junit-platform-console-standalone-1.7.0-M1.jar" org.junit.runner.JUnitCore Lab7_Tester`
 
 ### Mac/Linux
 `javac -classpath ".:junit-platform-console-standalone-1.7.0-M1.jar" *.java`
-`java -classpath ".:junit-platform-console-standalone-1.7.0-M1.jar" org.junit.runner.JUnitCore Lab2_Tester`
+`java -classpath ".:junit-platform-console-standalone-1.7.0-M1.jar" org.junit.runner.JUnitCore Lab7_Tester`
 
 ## Submission
 
