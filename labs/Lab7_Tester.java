@@ -117,7 +117,7 @@ public class Lab7_Tester {
 
   @Test
   public void test7() {
-    System.out.println("the ThingList class has methods to addThing, moveAll, and printAll Things inside the list/queue");
+    System.out.println("the ThingList class has methods to addAll, moveAll, and printAll Things inside the list/queue");
     assertEquals(true, checkInFile("ThingList.java", "public void addThing(Thing"));
     assertEquals(true, checkInFile("ThingList.java", "public void printAll()"));
     assertEquals(true, checkInFile("ThingList.java", "public void moveAll(Random"));
@@ -140,19 +140,19 @@ public class Lab7_Tester {
     boolean not_found_col = checkNotInFile("TypeA.java", "protected int col") && checkNotInFile("TypeA.java", "private int col") && checkNotInFile("TypeA.java", "public int col");
     boolean not_found_dir = checkNotInFile("TypeA.java", "protected int dir") && checkNotInFile("TypeA.java", "private int dir") && checkNotInFile("TypeA.java", "public int dir");
     boolean not_found_lab = checkNotInFile("TypeA.java", "protected char lab") && checkNotInFile("TypeA.java", "private char lab") && checkNotInFile("TypeA.java", "public char lab");
-    assertEquals(true, found_row);
-    assertEquals(true, found_col);
-    assertEquals(true, found_dir);
-    assertEquals(true, found_lab);
+    assertEquals(true, not_found_row);
+    assertEquals(true, not_found_col);
+    assertEquals(true, not_found_dir);
+    assertEquals(true, not_found_lab);
 
     not_found_row = checkNotInFile("TypeB.java", "protected int row") && checkNotInFile("TypeB.java", "private int row") && checkNotInFile("TypeB.java", "public int row");
     not_found_col = checkNotInFile("TypeB.java", "protected int col") && checkNotInFile("TypeB.java", "private int col") && checkNotInFile("TypeB.java", "public int col");
     not_found_dir = checkNotInFile("TypeB.java", "protected int dir") && checkNotInFile("TypeB.java", "private int dir") && checkNotInFile("TypeB.java", "public int dir");
     not_found_lab = checkNotInFile("TypeB.java", "protected char lab") && checkNotInFile("TypeB.java", "private char lab") && checkNotInFile("TypeB.java", "public char lab");
-    assertEquals(true, found_row);
-    assertEquals(true, found_col);
-    assertEquals(true, found_dir);
-    assertEquals(true, found_lab);
+    assertEquals(true, not_found_row);
+    assertEquals(true, not_found_col);
+    assertEquals(true, not_found_dir);
+    assertEquals(true, not_found_lab);
   }
 
 }
