@@ -7,18 +7,7 @@ showsolution: false
 # Worksheet: J3
 
 
-Worksheets are self-guided activities that reinforce lectures. They are due Thursdays the week they are assigned.
-
 Please submit your answers to the questions as comments in a `J3.md` markdown file you'll be writing in this lab. To render your file, create a github repo and upload your file there -- it can be viewed in your web browser.
-
-# Grading rubric and submission
-
-When you are done, submit your `J3.md` file to BB.
-
- You will be graded on the following:
-
-|Item | Points |
-|Answers are completed (for content)  | 100 |
 
 
 ## Note
@@ -411,3 +400,11 @@ If you were to create an abstract class for a `Car` -- what features could be de
 
 Features such as car brand, model, year, and other attributes that would be highly variable would be defined in the class implmentation. Other functions that would be mostly fixed and more deterministic across different class definitions, such as `toString` and functions that get or set values would be defined in the `abstact` class.
 
+# Grading rubric and submission
+
+When you are done, submit your `J3.md` file to BB.
+
+ You will be graded on the following:
+
+|Item | Points |
+|Answers are completed (for content)  | 100 |
