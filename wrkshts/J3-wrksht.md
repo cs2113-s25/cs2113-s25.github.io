@@ -1,7 +1,7 @@
 ---
 layout: worksheet
 permalink: /worksheet/j3
-showsolution: false
+showsolution: true
 ---
 
 # Worksheet: J3
@@ -174,7 +174,7 @@ public class LetterPrinter {
 
 
 ### q
-What is the output of this program? You should do this without running the program.
+What happens to the object `letterA` points to in memory when you do the cast below?
 
 ```java
 class A {
@@ -190,27 +190,16 @@ class B extends A {
 }
 
 public class PolymorphicOverload {
-    public void foo(B letterB1, B letterB2) {
-        // 2
-        System.out.println("foo2: " + letterB1 + " " + letterB2);
-    }
 
-    public void foo(A letterA1, A letterA2) {
-        // 1
-        System.out.println("foo1: " + letterA1 + " " + letterA2);
-    }
     public static void main(String args[]) {
-        PolymorphicOverload f = new PolymorphicOverload();
         B letterB = new B();
         A letterA = (A) new B();
-        f.foo(letterB, letterA);
     }
 }
 ```
 
 #### s
-* The output of the program is `foo1: B B`.
-* While `letterB` and `letterA` are both `class B`, the declaration makes `f.foo(letterB, letterA)` look for the best method to fit `f.foo(class B, class A)` due to the static declaration of `letterA` being `class A`. This means the method `public void foo(A letterA1, A letterA2)` is called in the main function because it is the best fitting method where both parameters passed in can be `class A` (remember `B` extends `A`). Therefore, the output is `foo1: B B`.
+The cast will have no effect; `letterA` still points to an object of type `B` in memory. The cast is not necessary here, and in general is simply a promise to the compiler, not something that updates memory.
 
 
 ### q
@@ -264,9 +253,9 @@ public class Pet {
     }
 
     public String toString() {
-        String ret = "Name: " + name + "\n";
+        String ret = "Name: " + name + " ";
         ret += "Species: " + species;
-        retunr ret;
+        return ret;
     }       
 }
 ```
