@@ -16,7 +16,7 @@ Download the [Lab7_Tester.java](./Lab7_Tester.java) file.
 
 ### Github setup
 
-Use git, as discussed in Lab 0, to create a repo called `gitusername-lab7`, add these two files to it, and commit and push the changes to github. You will need to submit your git log to the submitserver. You will also want to create five additional class files, `Thing.java`, `TypeA.java`, `TypeB.java`, `TypeC.java`, and `ThingList.java` and store them in your repo -- you will be submitting these five files to the submitserver.
+Use git, as discussed in Lab 0, to create a repo called `gitusername-lab7`, add these two files to it, and commit and push the changes to github. You will need to submit your git log to the submitserver. You will also want to create five additional class files, `Thing.java`, `TypeA.java`, `TypeB.java`, `TypeC.java`, and `ThingList.java` and store them in your repo -- you will be submitting these five files to the submitserver. You will also need a `Node.java` class; you can make this private in `ThingList` or have it as its own separate public class.
 
 You will need to use this repo effectively to receive full credit on this assignment, even though you will be submitting it on the submitserver. See the grading rubric below.
 
@@ -153,6 +153,10 @@ In your github repo, type the following command to pipe your log to a text file:
 
 Next, type the following command to compress your files into the required submission format:
 `tar -cvf lab7.tar Thing.java ThingList.java TypeA.java TypeB.java TypeC.java log_file.txt UML.png`
+
+or, if you have a public `Node` class:
+
+`tar -cvf lab7.tar Thing.java ThingList.java TypeA.java TypeB.java TypeC.java log_file.txt UML.png Node.java`
 
 Submit your code, as `lab7.tar` on the submitserver. 
 
