@@ -95,8 +95,6 @@ margin-right: auto;"/>
 
 Here the solid line with solid arrowheads indicate classes that inerit from another, like `GWStudent` inherits from `GWPerson`. A dotted line with a solid arrowhead indicates a class that *realizes* an interface, like `GWFaculty` realizing `GWStaff`. Finally, an interface is annotaed with `<<>>` markers in its name. 
 
-<font color="red"><b>PAUSE: Let's do exercises 1-2 on the J4 worksheet now for the next ten minutes.<br></b></font>
-
 ## Using interfaces
 
 Like abstract classes, we can use the interface as the type name, and due to polymorphism, we can have different implementations of that realize that interface. For example, consider a payroll program that determines the total compensation for a collection of staff members. 
@@ -221,8 +219,6 @@ public void reverseStack(IntStack s) {
 The programmer is making a strong assumption about the nature of `s`, specifically it the `IntStack` is realized via an `IntLinkedList` and so it can be directly cast. This may not be the case. `IntStack` could be realized by an `IntArrayList` or some other class that can realize an `IntStack` that is yet to be written. 
 
 
-<font color="red"><b>PAUSE: Let's do exercise 3 on the J4 worksheet now for the next ten minutes.<br></b></font>
-
 # Java Generics and Interface
 
 ## Using `Object` to generalize
@@ -303,8 +299,6 @@ And if we tried to insert a non `String` to `l`, we would get a compiler error:
 ```java
 l.addToHead(Integer(10)); //<-- this will cause a compiler error
 ```
-
-<font color="red"><b>PAUSE: Let's do exercise 4 on the J4 worksheet now for the next five minutes.<br></b></font>
 
 ## Generics as an Erasure to Object
 
@@ -393,48 +387,6 @@ public class FooBarBaz {
 Unfortunately, there are not good solutions to this that do not leverage more advanced tools, like Java reflections --- still a lesson for another day. 
 
 While you can do some fancy casting with arrays of `Objects`, best practice is to use Java collections when you want generic array-like functionality. This is discussed latter in this unit. 
-
-<!-- The standard way to do this is to manage the class type directly. For example, we leave the array as a generic `Object` array. But, since *all* classes extend `Object` we can treat this like an array of pointers that can reference any class. -->
-
-<!-- ```java -->
-<!-- public class FooBarBaz<T>{ -->
-<!--    Object array[]; -->
-<!--    public FooBarBaz{ -->
-<!--       array = new Object[]; -->
-<!--    } -->
-<!-- } -->
-<!-- ``` -->
-
-<!-- When we want to get a value out of the array, we cast ourselves. -->
-
-<!-- ```java -->
-<!-- public T getIdx(int idx){ -->
-<!--     //will generate a warning, which we can supress -->
-<!--     @SuppressWarnings("unchecked") -->
-<!--     return (T) array[i]; //explicitely cast for type checking -->
-<!-- } -->
-<!-- ``` -->
-
-<!-- But, this will cause a warning at compile time due to a unchecked weak typing. That is, it is impossible to know at run time if the values in `array` are truly of class type `T`. However, if you know you're doing this right, you can suppress this warning with `@SuppressWarnings("unchecked")`. -->
-
-<!-- ## Using a Upper Bounding Type in Generics -->
-
-<!-- One way to avoid some of the restrictions above is to introduce a **bounding type**. For example, suppose we want know that the generic type argument is a subclass of some other class `Foo`, then we can declare the class as so with a `?` as a wildcard for that other class.  -->
-
-<!-- ```java -->
-<!-- public class Bar<? extends Foo>{ -->
-<!--     Foo array[] -->
-<!--     public Bar(){ -->
-<!--         array = new Foo[]; -->
-<!--     } -->
-<!-- } -->
-<!-- ``` -->
-
-<!-- Taking advantage of inheritance and polymorphous allows us to use `Foo` as a standin as the super type for whichever class is passed as the type argument.  -->
-
-<!-- Unfortunately, this may not work in all situations, for example, if you want to write a list that can be generic to any type, not just subtypes of one type.  -->
-
-<font color="red"><b>PAUSE: Let's do exercises 5-10 on the J4 worksheet now for the next 20 minutes.<br></b></font>
 
 # Exploring Common Java Interfaces and their Realizations
 
@@ -599,8 +551,6 @@ while(iter.hasNext()) { //Iterator interface
    /*...*/
 }
 ```
-
-<font color="red"><b>PAUSE: Let's do exercises 11-14 on the J4 worksheet now for the next 20 minutes.<br></b></font>
 
 ## Java Collections
 

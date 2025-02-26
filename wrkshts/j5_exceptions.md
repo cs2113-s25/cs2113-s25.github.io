@@ -6,7 +6,7 @@ showsolution: false
 
 # Worksheet: J5
 
-Worksheets are self-guided activities that reinforce lectures. They are not graded for accuracy, only for completion. Submit a file called `worksheet-J5.md` on BB for this assignment.
+Worksheets are self-guided activities that reinforce lectures. They are not graded for accuracy, only for completion. Submit a file called `J5.md` on BB for this assignment.
 
 ## Note
 
@@ -305,3 +305,12 @@ static String readFirstLineFromFile(String path) throws IOException {
     }
 }   
 ```
+
+# Grading rubric and submission
+
+When you are done, submit your `J5.md` file to BB.
+
+ You will be graded on the following:
+
+|Item | Points |
+|Answers are completed (for content)  | 100 |

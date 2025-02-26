@@ -6,18 +6,8 @@ showsolution: false
 
 # Worksheet: J4
 
-Worksheets are self-guided activities that reinforce lectures. They are due Thursdays the week they are assigned.
 
-Please submit your answers to the questions as comments in a `J4.md` markdown file you'll be writing in this lab. To render your file, create a github repo and upload your file there -- it can be viewed in your web browser.
-
-# Grading rubric and submission
-
-When you are done, submit your `J4.md` file to BB.
-
- You will be graded on the following:
-
-|Item | Points |
-|Answers are completed (for content)  | 100 |
+Please submit your answers to the questions as comments in a `J4.md` markdown file. To render your file, create a github repo and upload your file there -- it can be viewed in your web browser.
 
 
 ## Questions
@@ -475,3 +465,11 @@ public class Car implements Comparable<Car> {
 	}
 ```
 
+# Grading rubric and submission
+
+When you are done, submit your `J4.md` file to BB.
+
+ You will be graded on the following:
+
+|Item | Points |
+|Answers are completed (for content)  | 100 |
