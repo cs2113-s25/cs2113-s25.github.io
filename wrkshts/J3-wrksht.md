@@ -309,13 +309,13 @@ public class B extends C {
     }
 
     public char baz() {
-        return "y";
+        return 'y';
     }
 }
 
 public class C extends A {
     public char baz() {
-        return "x";
+        return 'x';
     }
 }
 
