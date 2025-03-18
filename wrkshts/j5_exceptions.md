@@ -124,7 +124,7 @@ What does the following code print to the terminal for the cases below? Assume t
 public static void main(String[] args){
 
     int x = 3;
-    String y = "oops"; //mystery();
+    String y = mystery();
 
     try {
         System.out.println("here 1");
