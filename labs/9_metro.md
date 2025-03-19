@@ -5,8 +5,6 @@ permalink: /lab/9_metro
 
 # Lab 9: The DC Metro Trip Planner
 
-part 1: draw your own diagram of the metro map and submit it
-
 ## Setup
 
 Download the [MetroSimulator.java](./MetroSimulator.java) file.
@@ -233,7 +231,7 @@ Two stations can be connected as primary previous/next stations using the `conne
 
 ### tests 8-10: Making the DC metro 
 
-Refer to these test cases for how you will complete the `makeOrangeLine()`, `makeRedLine()`, and `makePurpleLine()` methods. **You will be required to submit a drawing of the metro system defined by these three methods collectively that has the `previous` and `next` primary connections correctly labelled for each station, as well as the list of transfer connections, inserted in correct order, for full credit.** Please use the format for this diagram that we will show in lecture, otherwise we cannot assign credit for this part. All students should submit their own unique hand- (or computer-) drawn diagrams; this is NOT a group assignment.
+Refer to these test cases for how you will complete the `makeOrangeLine()`, `makeRedLine()`, and `makePurpleLine()` methods. **You will be required to submit a drawing of the metro system defined by these three methods collectively that has the `previous` and `next` primary connections correctly labelled for each station, as well as the list of transfer connections, inserted in correct order, for full credit.** Please use the format for this diagram that we will show in lecture, otherwise we cannot assign credit for this part. All students should submit their own unique hand- (or computer-) drawn diagrams; this is NOT a group assignment. Call your diagram `metro.jpeg` and reduce its size in bytes if your tarfile doesn't accept your original submission.
 
 Note that you will only be implementing a very small part of the orange and red lines, and then adding a fake purple line; you don't need to create the entire actual metro itself, just what is in these test cases.
 
@@ -275,7 +273,7 @@ In your github repo, type the following command to pipe your log to a text file:
 `git log > log_file.txt`
 
 Next, type the following command to compress your files into the required submission format:
-`tar -cvf lab9.tar  Station.java EndStation.java TransferStation.java MetroSimulator.java log_file.txt`
+`tar -cvf lab9.tar  Station.java EndStation.java TransferStation.java MetroSimulator.java log_file.txt metro.jpeg`
 
 Submit your code, as `lab9.tar` on the submitserver. 
 
@@ -283,7 +281,7 @@ You will be graded on the following:
 
 
 |Item | Points |
-|a correct drawing/diagram of the metro system described above has been submitted to BB |  4 |
+|a correct drawing/diagram of the metro system described above has been included |  4 |
 |your git logs show comments that helpfully and meaningfully describe what updates you were committing |  2 |
 |your git logs show evidence that you committed code at least once during the Project1 lab   |  1 |
 |your git logs show at least five commits that are all at least ten minutes apart  |  2 |
