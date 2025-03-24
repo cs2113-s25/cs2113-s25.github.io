@@ -24,7 +24,7 @@ System.out.println(x[y]);
 ```
 
 #### s
-It will crash and print a stack trace to the terminal because an `ArithmeticException` was raised when doing `x[y]` 
+It will crash and print a stack trace to the terminal because an `ArrayIndexOutOfBoundsException` was raised when doing `x[y]` 
 
 ### q
 What does the following code print to the terminal?
@@ -69,7 +69,7 @@ try {
 ```
 before
 there was something wrong
-java.lang.ArithmeticException: / by zero
+java.lang.ArrayIndexOutOfBoundsException: 0
     at [filename:line number]
 ```
 
@@ -84,7 +84,7 @@ try {
     System.out.println("before1");
     System.out.println(x[y]);
     System.out.println("after1");
-} catch (ArithmeticException e){
+} catch (ArrayIndexOutOfBoundsException e){
     System.out.println("there was something wrong1");
 }
 
@@ -94,7 +94,7 @@ try {
     System.out.println("after2");
 } catch (Exception e){
     System.out.println("there was something wrong2");
-} catch (ArithmeticException e){
+} catch (ArrayIndexOutOfBoundsException e){
     System.out.println("there was something wrong3");
 }
 ```
@@ -209,7 +209,7 @@ For example, if you are trying to open a file that doesn't exist, the actual cod
 Give a reason why it is not a good idea to only wrap your entire `main` method inside one `try-catch` block.
 
 #### s
-If you only have one `try-catch` block in `main` your code may never crash, but you also lose the ability to appropriately handle exceptions where they happen
+If you only have one `try-catch` block in `main` your code may never crash, but you also lose the ability to appropriately handle exceptions where they happen.
  
 ### q
 What is the difference between a *checked* versus an *unchecked* exception?
@@ -279,7 +279,7 @@ What happens if you don't close an input/outputstream buffer in your code?
 #### s
 Usually, nothing, if your program is short and runs quickly; once the `main` method exits, all these resources are returned anyway...
 
-However, if you are opening multiple buffers (and not closing them) in a loop that runs for a long time (this opening too many of these buffers) you can run out of memory and have other bad things happen (ask me how I know). It's good practice to always close the buffers you open. Newer versions of Java even do this automatically:
+However, if you are opening multiple buffers (and not closing them) in a loop that runs for a long time (this opening too many of these buffers) you can run out of memory and have other bad things happen (ask me how I know). It's good practice to always close the buffers you open. Newer versions of Java even do this automatically.
 
 Old Java that uses a `finally` clause to wrap everything up at the end regardless if an exception was raised or not:
 ```java
