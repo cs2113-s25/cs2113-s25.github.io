@@ -124,12 +124,12 @@ First, take a look at the Junit file provided and make sure you understand/appre
 To run your unit tests -- remember, you need to have the junit jar file in the same directory -- compile and run your code with the following commands on the terminal (depending on your OS):
 
 ### Windows
-`javac -classpath ".;junit-platform-console-standalone-1.7.0-M1.jar" Lab3_Tester.java`
-`java -classpath ".;junit-platform-console-standalone-1.7.0-M1.jar" org.junit.runner.JUnitCore Lab3_Tester`
+`javac -classpath ".;junit-platform-console-standalone-1.7.0-M1.jar" Lab10_Tester.java`
+`java -classpath ".;junit-platform-console-standalone-1.7.0-M1.jar" org.junit.runner.JUnitCore Lab10_Tester`
 
 ### Mac/Linux
-`javac -classpath ".:junit-platform-console-standalone-1.7.0-M1.jar" Lab3_Tester.java`
-`java -classpath ".:junit-platform-console-standalone-1.7.0-M1.jar" org.junit.runner.JUnitCore Lab3_Tester`
+`javac -classpath ".:junit-platform-console-standalone-1.7.0-M1.jar" Lab10_Tester.java`
+`java -classpath ".:junit-platform-console-standalone-1.7.0-M1.jar" org.junit.runner.JUnitCore Lab10_Tester`
 
 
 # Grading rubric and submission
