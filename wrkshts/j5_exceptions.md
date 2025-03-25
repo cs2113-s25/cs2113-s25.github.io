@@ -1,7 +1,7 @@
 ---
 layout: worksheet
 permalink: /worksheet/j5_exceptions
-showsolution: false
+showsolution: true
 ---
 
 # Worksheet: J5
