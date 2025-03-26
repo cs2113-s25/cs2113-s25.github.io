@@ -6,9 +6,7 @@ showsolution: false
 
 # Worksheet: J6
 
-Worksheets are self-guided activities that reinforce lectures. They are not graded for accuracy, only for completion. They are due, on github by 11:59pm on the day of the lecture.
-
-Submit a file called `worksheet-J6.md` in your repo for this assignment. Submit a file called `worksheet-J6.md` in your repo for this assignment.
+Submit a file called `worksheet-J6.md` to BB for this assignment. 
 
 ## Note
 
@@ -150,7 +148,7 @@ Then:
 
 ### q
 
-Now let's modify `GreetingsThread` to add a `Thread.sleep()` in the `run()` method. Recompile the `GreatingThread` class as below.
+Now let's modify `GreetingsThread` to add a `Thread.sleep()` in the `run()` method. Recompile the `GreetingsThread` class as below.
 
 Run the program multiple times.  Does the output change in any way? Does one thread always finish first, or does the order change?
 
@@ -254,321 +252,142 @@ What does `join()` do compared to `join(10)`?
 
 ### q
 
-What is the difference between `isAlive()` and `join()`? (note, no arguments to `join`.)
+What are all the possible outputs of running the code below?
 
-#### s
-When `isAlive()` is called, the status of the referenced thread is returned as a boolean without the need to wait for the referenced thread to terminate before the current thread continues. However, when `join()` is called, current thread will wait for the referenced thread to terminate.
-
-### q
-
-Compile the two files below and run the main method in the `AnimalFootRace`. Then describe the output of this program.  Explain why the threads finish in the order that they do.
-
-```
-$ javac *.java
-$ java AnimalFootRace
-```
-
+<div class="side-by-side">
+<div class="side-by-side-a">
 ```java
-/* AnimalFootRace.java */
-public class AnimalFootRace {
-    public static void main(String[] args) {
-        Thread tortoiseThread = new AnimalRacerThread("Tortoise", 5);
-        Thread hareThread = new AnimalRacerThread("Hare", 20);
-        Thread cheetahThread = new AnimalRacerThread("Cheetah", 50);
+import java.util.*;
 
-        System.out.println("On your marks, get set, go!");
-        tortoiseThread.start();
-        hareThread.start();
-        cheetahThread.start();
-    }
-}
-```
+public class Ex0 {
+  public static void main(String[] args) {
+    Thread t = new Foo();
 
-```java
-/* AnimalRacerThread.java */
-public class AnimalRacerThread extends Thread {
-    public static final int NUM_LAPS = 8;
-    private String animalName;
-    private int animalSpeed;
-
-    public AnimalRacerThread(String animalName, int animalSpeed) {
-        this.animalName = animalName;
-        this.animalSpeed = animalSpeed;
-    }
-
-    @Override
-    public void run() {
-        for (int i = 1; i <= NUM_LAPS; i++) {
-            System.out.println(animalName + " lap " + i);
-            try {
-                Thread.sleep(1000 / animalSpeed);
-            } catch (InterruptedException e) {
-                System.out.println("Interrupted while sleeping...");
-            }
-        }
-        System.out.println(animalName + "Finished!");
-    }
-}
-```
-
-#### s
-
-The output of the program is:
-```
-On your marks, get set, go!
-Tortoise lap 1
-Cheetah lap 1
-Hare lap 1
-Cheetah lap 2
-Hare lap 2
-Cheetah lap 3
-Cheetah lap 4
-Hare lap 3
-Cheetah lap 5
-Cheetah lap 6
-Hare lap 4
-Cheetah lap 7
-Tortoise lap 2
-Cheetah lap 8
-Hare lap 5
-CheetahFinished!
-Hare lap 6
-Hare lap 7
-Tortoise lap 3
-Hare lap 8
-HareFinished!
-Tortoise lap 4
-Tortoise lap 5
-Tortoise lap 6
-Tortoise lap 7
-Tortoise lap 8
-TortoiseFinished!
-```
-Each thread sleeps for `1000 / animalSpeed` milliseconds. Because the `cheetahThread`, `hareThread` and `tortoiseThread` has `animalSpeed` of 50, 20 and 5 respectively, the threads sleeps for 20, 50 and 200 milliseconds respectively. Therefore, the `cheetahThread` finishes first, `hareThread` second and `tortoiseThread` last.
-
-### q
-
-Modify the `AnimialFootRace` main method. Add additional code to give the hare a head start, without modifying the animal speeds. Then compile the two files below and run the main method in the `AnimalFootRace`. Provide the modified code below.  Then describe the output of this program.  Explain why your modification worked or did not work.
-
-```
-$ javac *.java
-$ java AnimalFootRace
-```
-
-```java
-/* AnimalFootRace.java */
-public class AnimalFootRace {
-    public static void main(String[] args) {
-        Thread tortoiseThread = new AnimalRacerThread("Tortoise", 5);
-        Thread hareThread = new AnimalRacerThread("Hare", 20);
-        Thread cheetahThread = new AnimalRacerThread("Cheetah", 50);
-
-        System.out.println("On your marks, get set, go!");
-        tortoiseThread.start();
-        hareThread.start();
-        cheetahThread.start();
-    }
-}
-```
-
-```java
-/* AnimalRacerThread.java */
-public class AnimalRacerThread extends Thread {
-    public static final int NUM_LAPS = 8;
-    private String animalName;
-    private int animalSpeed;
-
-    public AnimalRacerThread(String animalName, int animalSpeed) {
-        this.animalName = animalName;
-        this.animalSpeed = animalSpeed;
-    }
-
-    @Override
-    public void run() {
-        for (int i = 1; i <= NUM_LAPS; i++) {
-            System.out.println(animalName + " lap " + i);
-            try {
-                Thread.sleep(1000 / animalSpeed);
-            } catch (InterruptedException e) {
-                System.out.println("Interrupted while sleeping...");
-            }
-        }
-        System.out.println(animalName + "Finished!");
-    }
-}
-```
-
-#### s
-* Modified main function
-  ```java
-  /* AnimalFootRace.java */
-  public class AnimalFootRace {
-      public static void main(String[] args) {
-          Thread tortoiseThread = new AnimalRacerThread("Tortoise", 5);
-          Thread hareThread = new AnimalRacerThread("Hare", 20);
-          Thread cheetahThread = new AnimalRacerThread("Cheetah", 50);
-  
-          System.out.println("On your marks, get set, go!");
-          hareThread.start();
-          try {
-              System.out.println("Joining the morning thread for 5 seconds...");
-              hareThread.join(500);
-          } catch (InterruptedException e) {
-              System.out.println("Interrupted while joining a thread...");
-          }
-  
-          tortoiseThread.start();
-          cheetahThread.start();
-      }
+    t.start();
+    int x = 5 * 5;
+    System.out.println(x);
   }
-  ```
-* Having the hare start 0.5 seconds in advance allowed it to finish all 8 laps before the tortoise or the cheetah begin their first lap. Thus, the output becomes the following:
-  ```
-  On your marks, get set, go!
-  Joining the morning thread for 5 seconds...
-  Hare lap 1
-  Hare lap 2
-  Hare lap 3
-  Hare lap 4
-  Hare lap 5
-  Hare lap 6
-  Hare lap 7
-  Hare lap 8
-  Tortoise lap 1
-  Cheetah lap 1
-  HareFinished!
-  Cheetah lap 2
-  Cheetah lap 3
-  Cheetah lap 4
-  Cheetah lap 5
-  Cheetah lap 6
-  Cheetah lap 7
-  Tortoise lap 2
-  Cheetah lap 8
-  CheetahFinished!
-  Tortoise lap 3
-  Tortoise lap 4
-  Tortoise lap 5
-  Tortoise lap 6
-  Tortoise lap 7
-  Tortoise lap 8
-  TortoiseFinished!
-  ```
-* The modification may not compile if the try/catch block is not included for the `join()` method. When the join time expires (e.g. 5 seconds on `join(5000)` or called thread finishes on `join()`), the interrupted status of the current thread (in this problem the `main` thread) is cleared when `InterruptedException` is raised. Thus, the `main` thread needs to catch the `InterruptedException`.
+}
+```
+</div>
+<div class="side-by-side-b">
+```java
+public class Foo extends Thread {
+  public void run() {
+    int x = 7 * 7;
+    System.out.println(x);
+  }
+}
+```
+</div>
+</div>
+
+#### s
+
+It could print out the 25 and 42 in any order.
 
 ### q
 
-Modify the `AnimialFootRace` main method. Add a new animal thread to the foot race. Then compile the two files below and run the main method in the `AnimalFootRace`. Provide the modified code below. Then describe the output of this program. 
+What is the output of the code below? Is it deterministic?
 
-```
-$ javac *.java
-$ java AnimalFootRace
-```
-
+<div class="side-by-side">
+<div class="side-by-side-a">
 ```java
-/* AnimalFootRace.java */
-public class AnimalFootRace {
-    public static void main(String[] args) {
-        Thread tortoiseThread = new AnimalRacerThread("Tortoise", 5);
-        Thread hareThread = new AnimalRacerThread("Hare", 20);
-        Thread cheetahThread = new AnimalRacerThread("Cheetah", 50);
+import java.util.*;
 
-        System.out.println("On your marks, get set, go!");
-        tortoiseThread.start();
-        hareThread.start();
-        cheetahThread.start();
+public class Ex1 {
+  public static Random rand = new Random();
+
+  public static void printSlow(String s, String t) {
+    for (int i = 0; i < s.length(); i++) {
+      try {
+        Thread.sleep(rand.nextInt(1000));
+      } catch (Exception e) {}
+      System.out.println(t + s.charAt(i));
     }
+  }
+
+  public static void main(String[] args) {
+    String s = "Mississippi";
+    Thread t = new Foo(s, "   ");
+
+    t.start();
+    printSlow(s, " ");
+  }
 }
 ```
+</div>
+<div class="side-by-side-b">
+```java
+public class Foo extends Thread {
+  private String msg, tab;
+
+  public Foo(String s, String t) {
+    this.msg = s;
+    this.tab = t;
+  }
+
+  public void run() {
+    Ex1.printSlow(this.msg, this.tab);
+  }
+}
+```
+</div>
+</div>
+
+#### s
+
+See the notes for an example output; it is not deterministic.
+
+### q
+
+When adding into a linked list with the code below, why is a race condition possible here?
 
 ```java
-/* AnimalRacerThread.java */
-public class AnimalRacerThread extends Thread {
-    public static final int NUM_LAPS = 8;
-    private String animalName;
-    private int animalSpeed;
-
-    public AnimalRacerThread(String animalName, int animalSpeed) {
-        this.animalName = animalName;
-        this.animalSpeed = animalSpeed;
-    }
-
-    @Override
-    public void run() {
-        for (int i = 1; i <= NUM_LAPS; i++) {
-            System.out.println(animalName + " lap " + i);
-            try {
-                Thread.sleep(1000 / animalSpeed);
-            } catch (InterruptedException e) {
-                System.out.println("Interrupted while sleeping...");
-            }
-        }
-        System.out.println(animalName + "Finished!");
-    }
-}
+      tail.next = new Node(s, null);
+      tail = tail.next;
 ```
 
 #### s
-* Modified main function
-  ```java
-  /* AnimalFootRace.java */
-  public class AnimalFootRace {
-      public static void main(String[] args) {
-          Thread tortoiseThread = new AnimalRacerThread("Tortoise", 5);
-          Thread hareThread = new AnimalRacerThread("Hare", 20);
-          Thread cheetahThread = new AnimalRacerThread("Cheetah", 50);
-          Thread hippoThread = new AnimalRacerThread("Flying Hippo", 500);
-  
-          System.out.println("On your marks, get set, go!");
-          tortoiseThread.start();
-          hareThread.start();
-          cheetahThread.start();
-          hippoThread.start();
-      }
-  }
-  ```
-* Output
-  ```
-  On your marks, get set, go!
-  Flying Hippo lap 1
-  Cheetah lap 1
-  Hare lap 1
-  Tortoise lap 1
-  Flying Hippo lap 2
-  Flying Hippo lap 3
-  Flying Hippo lap 4
-  Flying Hippo lap 5
-  Flying Hippo lap 6
-  Flying Hippo lap 7
-  Flying Hippo lap 8
-  Cheetah lap 2
-  Flying HippoFinished!
-  Hare lap 2
-  Cheetah lap 3
-  Cheetah lap 4
-  Cheetah lap 5
-  Hare lap 3
-  Cheetah lap 6
-  Hare lap 4
-  Cheetah lap 7
-  Tortoise lap 2
-  Cheetah lap 8
-  Hare lap 5
-  CheetahFinished!
-  Hare lap 6
-  Hare lap 7
-  Tortoise lap 3
-  Hare lap 8
-  HareFinished!
-  Tortoise lap 4
-  Tortoise lap 5
-  Tortoise lap 6
-  Tortoise lap 7
-  Tortoise lap 8
-  TortoiseFinished!
-  ```
-* Adding the flying hippo with speed 500 (10 times the speed of cheetah) resulting in expected output of flying hippo finishing the race before anyone else start their 2nd lap.
 
+Each thread may call the constructor to create a new node. Then, one of the threads overwrites the old `tail.next` with this new node. Then, the other thread may also overwrite the current value of `tail.next` (which was a new node) with the other new node, losing one of the new nodes. This second thread then updates `tail` by setting it to the new node in `tail.next`, which is fine. However, the first thread then also tries to update `tail` by setting it to `tail.next`, but `tail.next` is `null`. Therefore, not only did we lose adding a node, but our `tail` now points to `null`, which will likely crash our code at some point.
+
+### q
+
+How do you solve the problem above?
+
+#### s
+
+Wrap the code/method that contains those two lines with the `synchronized` keyword. This will make the code above *atomic*, that is, the lines cannot be interleaved across two different threads. Once one thread starts to try to add the new node, it will block all other threads from trying to run the same lines.
+
+
+### q
+
+Why is the `synchronized` keyword necessary in the method below to avoid race conditions? The method is only one line of code, but the `value` is shared amongst multiple threads.
+
+#### s
+```java
+    public void increment() {
+        value++;
+```
+
+#### s
+
+`value++` is actually doing the following two calculations:
+
+```
+temp = value + 1
+value = temp
+```
+
+Let's imagine value is currently 10 in memory, before the code above runs. Two threads read this `value`, both setting `temp` to be 11. This is already wrong, because we want `temp` to be 12 at this point. Both threads will then set `value` to 11.
+
+Making the method `sychronized` will ensure `value++;` is an atomic transaction and avoids the race condition.
+
+```java
+    public synchronized void increment() {
+        value++;
+```
 
 ### q
 
@@ -642,201 +461,3 @@ public class Singleton {
 It is not possible for multiple threads to create more than one instance of the `Singleton` class if more than one threads attempt to call the `getInstance()` method at the same time with the synchronized keyword added to the `getInstance()` method.
 
 
-### q
-
-Review the `ThreadRunner` class code below.  Compile and run the `ThreadRunner` main method. Describe the output. Does the execution halt? Does `SimpleThreadTwo` finish running? If not, why does `SimpleThreadTwo` get stuck in the while loop (hint: recall the compiler optimization example)?
-
-```
-$ javac ThreadRunner.java
-$ java ThreadRunner
-```
-
-```java
-/* ThreadRunner.java */
-public class ThreadRunner {
-
-    private static boolean statusFlag = false;
-
-    private static class SimpleThreadOne extends Thread {
-        public void run() {
-            for (int i = 1; i <= 2000; i++){
-                System.out.println("Simple thread one counter - " + i);
-            }
-            // Change the status flag.
-            statusFlag = true;
-            System.out.println("Status flag changed to true in simple thread one.");
-        }
-    }
-
-    private static class SimpleThreadTwo extends Thread {
-        public void run() {
-            int waitCounter = 1;
-            while (!statusFlag) {
-                waitCounter++;
-            }
-            System.out.println("Start simple thread two processing " + waitCounter);
-        }
-    }
-
-    public static void main(String[] args) {
-        SimpleThreadOne simpleThreadOne = new SimpleThreadOne();
-        simpleThreadOne.start();
-        SimpleThreadTwo simpleThreadTwo = new SimpleThreadTwo();
-        simpleThreadTwo.start();
-    }
-}
-
-```
-
-#### s
-Just like the example given in class, the `while (!statusFlag)` is optimized to run as the following two lines of code
-```java
-boolean tmp = !statusFlag;
-while (tmp)
-```
-Thus, `SimpleThreadTwo` is not getting the updated `statusFlag` at the end of `SimpleThreadOne` which means the execution halts and `SimpleThreadTwo` never finishes running (stuck in the while loop).
-
-### q
-
-Review the modified `ThreadRunner` class code below.  Compile and run the `ThreadRunner` main method. Describe the output. Does the execution halt? Does `SimpleThreadTwo` finish running? If it does finish running, why does adding the volatile keyword before the boolean `statusFlag` change the behavior of the code compared to the previous question?
-
-```
-$ javac ThreadRunner.java
-$ java ThreadRunner
-```
-
-```java
-/* ThreadRunner.java */
-public class ThreadRunner {
-
-    private static volatile boolean statusFlag = false;
-
-    private static class SimpleThreadOne extends Thread {
-        public void run() {
-            for (int i = 1; i <= 2000; i++){
-                System.out.println("Simple thread one counter - " + i);
-            }
-            // Change the status flag.
-            statusFlag = true;
-            System.out.println("Status flag changed to true in simple thread one.");
-        }
-    }
-
-    private static class SimpleThreadTwo extends Thread {
-        public void run() {
-            int waitCounter = 1;
-            while (!statusFlag) {
-                waitCounter++;
-            }
-            System.out.println("Start simple thread two processing " + waitCounter);
-        }
-    }
-
-    public static void main(String[] args) {
-        SimpleThreadOne simpleThreadOne = new SimpleThreadOne();
-        simpleThreadOne.start();
-        SimpleThreadTwo simpleThreadTwo = new SimpleThreadTwo();
-        simpleThreadTwo.start();
-    }
-}
-
-```
-
-#### s
-The execution no longer halts and `SimpleThreadTwo` does finish running. Adding the `volatile` keyword to `statusFlag` tells the compiler/JVM such variable may be changed by things running on another thread and it cannot assume `statusFlag` will not be modified when running.
-
-### q
-
-A second price auction is an auction where the highest bidder only has to pay whatever the second highest bid was. For example if person A bids $1 and person B bids $2, then person B wins the auction, but only pays $1. Below are two classes that reflect this, `SecondPriceAuction` and `Bidder`.  
-
-Review the code below.  What might happen if two threads call the `makeBid` method at the same time? How would you modify the code to protect the auction outcome?
-
-
-```java
-public class SecondPriceAuction {
-    private int currentHighestBid = 0;
-    private int secondHighestBid = 0;
-
-    public int getSecondHighestBid() {
-        return secondHighestBid;
-    }
-
-    public void makeBid(int amount) {
-        if (amount > currentHighestBid) {
-            secondHighestBid = currentHighestBid;
-            currentHighestBid = amount;
-        }
-        else if(amount > secondHighestBid) {
-            secondHighestBid = amount;
-        }
-    }
-}
-```
-
-```java
-import java.util.Random;
-
-public class Bidder extends Thread {
-    private SecondPriceAuction secondPriceAuction;
-    private int maxBid;
-
-    public Bidder(SecondPriceAuction secondPriceAuction, int maxBet) {
-        this.secondPriceAuction = secondPriceAuction;
-        this.maxBid = maxBet;
-    }
-
-    public void run() {
-        try {
-            Thread.sleep((new Random()).nextInt(100));
-        } catch (InterruptedException e) {
-            System.out.println("Interrupted while sleeping...");
-        }
-
-        secondPriceAuction.makeBid(maxBid);
-    }
-}
-```
-
-```java
-public class AuctionRunner {
-    public static void main(final String args[]) {
-        SecondPriceAuction secondPriceAuction = new SecondPriceAuction();
-        Bidder[] bidders = new Bidder[3];
-
-        // Create new bidders.
-        for (int i = 0; i < bidders.length; i++) {
-            bidders[i] = new Bidder(secondPriceAuction, i + 1);
-        }
-
-        // Start bidding.
-        for (int i = 0; i < bidders.length; i++) {
-            bidders[i].start();
-        }
-
-        // Ensures all threads have finished before we print out the price
-        for (Bidder bidder : bidders) {
-            try {
-                bidder.join();
-            } catch (InterruptedException e) {
-                System.out.println("Interrupted while joining a thread...");
-            }
-        }
-
-        System.out.println("Final Price: $" + secondPriceAuction.getSecondHighestBid());
-    }
-}
-```
-
-#### s
-Two thread call `makeBid()` at the same time will cause a race condition on variables `currentHighestBid` and `secondHighestBid`. To solve the issue, we should add the `synchronized` keyword to the `makeBid()` method as shown below:
-```java
-public synchronized void makeBid(int amount) {
-    if (amount > currentHighestBid) {
-        secondHighestBid = currentHighestBid;
-        currentHighestBid = amount;
-    }
-    else if(amount > secondHighestBid) {
-        secondHighestBid = amount;
-    }
-}
-```

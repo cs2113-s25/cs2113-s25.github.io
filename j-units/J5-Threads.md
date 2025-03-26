@@ -167,9 +167,6 @@ margin-right: auto;"/>
 
 Not pictured here is the `Random` object. 
 
-<br>
-<font color="red"><b>PAUSE: Let's do problems 1-3 on the worksheet (15 minutes)</b></font>
-<br>
 
 # Concurrency
 
@@ -196,9 +193,6 @@ Note that the `join()` must be called inside a try-catch block; this is known as
 
 The `isAlive()` method can be called on a thread to check if it is still running. This can be useful when you want to know if a thread is finished, but don't want to block the execution as above.
 
-<br>
-<font color="red"><b>PAUSE: Let's do problems 4 - 9 on the worksheet (20 minutes)</b></font>
-<br>
 
 ## Race Conditions
 
@@ -413,9 +407,6 @@ public class Queue {
 }
 ```
 
-<br>
-<font color="red"><b>PAUSE: Let's do problems 10 - 13 on the worksheet (10 minutes)</b></font>
-<br>
 
 
 ## A Race Condition Example: Counting
@@ -499,9 +490,7 @@ public class CountFiles {
 </div>
 </div>
 
-<br>
-<font color="red"><b>PAUSE: Let's do problem 14 on the worksheet (5 minutes)</b></font>
-<br>
+
 
 
 
