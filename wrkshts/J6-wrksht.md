@@ -365,7 +365,6 @@ Wrap the code/method that contains those two lines with the `synchronized` keywo
 
 Why is the `synchronized` keyword necessary in the method below to avoid race conditions? The method is only one line of code, but the `value` is shared amongst multiple threads.
 
-#### s
 ```java
     public void increment() {
         value++;
