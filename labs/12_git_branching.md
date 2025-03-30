@@ -5,6 +5,8 @@ permalink: /lab/12_git_branching
 
 # Lab 12: Git branching and merging
 
+**As an exception for this lab only**, you may work with a partner on this assignment. However, the logfile you turn in must be of your own git repo.
+
 ## Setup
 
 Use git, as discussed in Lab 0, to create a repo called `gitusername-lab12`, add the file above to it, and commit and push the changes to github. 
