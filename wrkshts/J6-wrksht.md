@@ -1,7 +1,7 @@
 ---
 layout: worksheet
 permalink: /worksheet/j6
-showsolution: false
+showsolution: true
 ---
 
 # Worksheet: J6
@@ -388,75 +388,5 @@ Making the method `sychronized` will ensure `value++;` is an atomic transaction 
         value++;
 ```
 
-### q
-
-The `Singleton` class below implements the `Singleton` pattern.  The singleton pattern is a software engineering design pattern that restricts the instantiating of a class to a single instance. Review the `Singleton` class code below.  Is it possible to create more than one instance of the `Singleton` class if two threads attempt to call the `getInstance()` method at the same time?
-
-
-```java
-// Java program to create a Singleton class.
-public class Singleton {
-    // This is a private member variable so that the singletonInstance
-    // can only be accessed through the getInstance() method.
-    private static Singleton singletonInstance;
-
-    // Private constructor forces the class to be instantiated 
-    // via the getInstance method.
-    private Singleton() {
-        // private constructor.
-    }
-
-    // Method to get an instance of this class.
-    public static Singleton getInstance() {
-        // If this singleton instance is null, 
-        // then construct a new instance.
-        // Otherwise return the existing instance.
-        if (singletonInstance == null) {
-            singletonInstance = new Singleton();
-        }
-
-        return singletonInstance;
-    }
-}
-```
-
-#### s
-Theoretically, it is possible to create more than 1 instance of the `Singleton` class if 2 threads attempts to call `getInstance()` method at the same time in the above code. The reason it is only "theoretical" is two threads need to call `getInstance()` at almost exact same time so that one `getInstance()` is not complete before the other thread executes `getInstance()`. See the example below on how this issue is resolved.
-
-### q
-
-Review the modified thread safe Singleton class code below.  Is it possible to create more than one instance of the `Singleton` class if two threads attempt to call the `getInstance()` method at the same time? How does the synchronized keyword affect the attempts to call the `getInstance` method from multiple threads at the same time?
-
-
-```java
-// Java program to create thread safe Singleton class.
-public class Singleton {
-    // This is a private member variable so that the singletonInstance
-    // can only be accessed through the getInstance() method.
-    private static Singleton singletonInstance;
-
-    // Private constructor forces the class to be instantiated 
-    // via the getInstance method.
-    private Singleton() {
-        // private constructor.
-    }
-
-    // Synchronized method to control simultaneous access 
-    // to the getInstance method.
-    synchronized public static Singleton getInstance() {
-        // If this singleton instance is null, 
-        // then construct a new instance.
-        // Otherwise return the existing instance.
-        if (singletonInstance == null) {
-            singletonInstance = new Singleton();
-        }
-
-        return singletonInstance;
-    }
-}
-```
-
-#### s
-It is not possible for multiple threads to create more than one instance of the `Singleton` class if more than one threads attempt to call the `getInstance()` method at the same time with the synchronized keyword added to the `getInstance()` method.
 
 
