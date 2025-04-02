@@ -9,7 +9,7 @@ permalink: /lab/12_git_branching
 
 ## Setup
 
-Use git, as discussed in Lab 0, to create a repo called `gitusername-lab12`, add the file above to it, and commit and push the changes to github. 
+Use git, as discussed in Lab 0, to create a repo called `gitusername-lab12`, add the files below, and commit and push the changes to github. 
 
 Create the following three new files, with filenames exactly as shown, in this repo after you have cloned it to your computer:
 
