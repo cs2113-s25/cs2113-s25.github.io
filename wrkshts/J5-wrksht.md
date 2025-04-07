@@ -4,9 +4,9 @@ permalink: /worksheet/j5
 showsolution: false
 ---
 
-# Worksheet: J5
+# Worksheet: J8
 
-Worksheets are self-guided activities that reinforce lectures. They are not graded for accuracy, only for completion. Submit a file called `worksheet-J5.md` on BB for this assignment.
+Worksheets are self-guided activities that reinforce lectures. Submit a file called `worksheet-J8.md` on BB for this assignment.
 
 ## Note
 

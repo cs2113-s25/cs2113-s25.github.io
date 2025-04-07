@@ -6,10 +6,7 @@ showsolution: false
 
 # Worksheet: J7
 
-Worksheets are self-guided activities that reinforce lectures. They are not graded for accuracy, only for completion. They are due, on github by 11:59pm on the day of the lecture.
-
-
-Create a new repo using all the steps in Lab 0 called `yourgitusername-worksheet-J7`. Submit a file called `worksheet-J7.md` in your repo for this assignment.
+Submit a file called `worksheet-J7.md` in on BB for this assignment.
 
 ## Questions
 
