@@ -20,7 +20,7 @@ title: Schedule
 | 9    | Mar 31:  [J6 Worksheet](worksheet/j6) <br> Quiz 8: WordCount comprehension quiz <br> [Lab 11: Writing test cases for threads](lab/11_threading) | Apr 2:   [Lab 12: github advanced topics](lab/12_git_branching)  | [J5 - Threading and Concurrency](j/5) |           
 | 10    | Apr 7: [J7 Worksheet](worksheet/j7) <br> Quiz 9: Threading <br> [Lab 13: UML diagram for Client Server simulator](lab/13_UML_networks) | Apr 2: begin [Lab 14 -- Client Server simulator](lab/14_Client_server)    | [J6 - Java IO and Networking](j/6) |
 | 11   | Apr 14: [J8 Worksheet](worksheet/j8-gui) <br> [Lab 15 -- GUI Enigma](lab/15_GUI)  | Apr 16: Quiz 10: Client Server comprehension quiz   | [J4 - GUIs and Events](j/4)|
-| 12   | Apr 21: [J9 Worksheet](worksheet/j9)  | Apr 23: <br> Quiz 11: GUI comprehension quiz | [S2 - Software Engineering Development](j/software_engineering) <br> [S3 - Design Patterns](j/design) <br> [S4 - other programming languages and python](j/languages)|
+| 12   | Apr 21: [J9 Worksheet](worksheet/j9) <br> Quiz 11: GUI comprehension quiz  | Apr 23: extra credit quiz (optional) | [S2 - Software Engineering Development](j/software_engineering) <br> [S3 - Design Patterns](j/design) <br> [S4 - other programming languages and python](j/languages)|
 | 13   | Apr 28: Quiz 12: Tracing, Linked Lists, basic OOP <br> Makeup quizzes (optional) <br> TAing and rec letters| Apr 30: <i>no lab</i>|    |
 |    | Final Exam week: we do NOT have a final exam in this class
 
