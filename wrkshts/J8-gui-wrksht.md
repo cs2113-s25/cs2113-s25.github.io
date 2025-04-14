@@ -15,11 +15,6 @@ Attempt to answer these questions before running the code. This will improve you
 ## Questions
 
 ### q
-How does object-oriented programming pair so closely with GUIs?
-#### s
-GUIs have a lot of components that have similar interfaces and jobs, but may have slightly different functionality. For example we might have an exit button, and another such as a submit button, which you can only click when certain things are done. Both of these are buttons, are displayed the same, but have different functionality. We see then that if both of these buttons inherit from a parent Button class, then we won't have much extra code to write beyond what they do when they're clicked. So we see that any part of a GUI is going to be an object, and that we will end up using a lot of inheritance, which is why OOP is so closely tied to GUIs.
-
-### q
 
 What is the relationship between `WindowListener` and `WindowAdapter`?
 
