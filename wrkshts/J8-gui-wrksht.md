@@ -1,7 +1,7 @@
 ---
 layout: worksheet
 permalink: /worksheet/j8-gui
-showsolution: false
+showsolution: true
 ---
 
 # Worksheet: J8
