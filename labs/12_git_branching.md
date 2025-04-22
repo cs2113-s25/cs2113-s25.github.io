@@ -5,7 +5,7 @@ permalink: /lab/12_git_branching
 
 # Lab 12: Git branching and merging
 
-**As an exception for this lab only**, you may work with a partner on this assignment. However, the logfile you turn in must be of your own git repo.
+**As an exception for this lab only**, this lab assignment is groupwork. However, the logfile you turn in must be of your own git repo.
 
 ## Setup
 
@@ -19,6 +19,10 @@ Create the following four new files, with filenames exactly as shown, in this re
 * `index.html`
 
 Add some contents to these files -- this can be anything.
+
+### Meet your team
+
+In the rows in the classroom, find 2-5 other students to work with: this will be your team for this lab. In the last part of the assignment, we're going to practice working on a shared piece of code and how that translates into using `git` collaboratively.
 
 ## Using official documentation and tutorials
 
@@ -42,6 +46,17 @@ One issue that might pop up is what happens when two people are updating the sam
 
 Next, read and complete the tutorial at the following link: [https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
 
+### Working in a group with git
+
+Now that you know to do branches and merges in git, you're ready to try this out with your group!
+
+First, have one group member create a new repo called `lab12_group` and add all your team members to this repo using github's web interface. You can find a menu to search for people to add to your repo under the settings menu within your repository. Once you've created the repo and added your team, have everyone check out the repo -- you will all have a local copy of the empty main branch.
+
+Next, have a different team member create a file called `HelloWorld.java` that prints out Hello World! to the terminal, and add that to their repo, commit, and push. The rest of the team should do a `git pull` to then get a local copy of that file. Then, each team member should create a branch of the repo with the name of their choosing.
+
+Now, each team member should: 1) add a new, additional line to that file and 2) change the message from Hello World! to say something else that includes their first name. 
+
+Once you have all edited the file, try to merge the branch and resolve the conflicts until a satisfactory version of the file is committed to the main branch and all teammates are able to pull that same file from the repo.
 
 # Grading rubric and submission
 
